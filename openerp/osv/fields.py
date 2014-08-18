@@ -146,8 +146,10 @@ class _column(object):
             ('translate', self.translate),
             ('domain', self._domain),
             ('context', self._context),
+            ('change_default', self.change_default),
+            ('deprecated', self.deprecated),
         ]
-        return dict(item for item in items if items[1])
+        return dict(item for item in items if item[1])
 
     def restart(self):
         pass
@@ -187,7 +189,7 @@ class _column(object):
 class boolean(_column):
     _type = 'boolean'
     _symbol_c = '%s'
-    _symbol_f = lambda x: x and 'True' or 'False'
+    _symbol_f = bool
     _symbol_set = (_symbol_c, _symbol_f)
 
     def __init__(self, string='unknown', required=False, **args):
@@ -464,17 +466,16 @@ class datetime(_column):
             registry = openerp.modules.registry.RegistryManager.get(cr.dbname)
             user = registry['res.users'].browse(cr, SUPERUSER_ID, uid)
             tz_name = user.tz
+        utc_timestamp = pytz.utc.localize(timestamp, is_dst=False) # UTC = no DST
         if tz_name:
             try:
-                utc = pytz.utc
                 context_tz = pytz.timezone(tz_name)
-                utc_timestamp = utc.localize(timestamp, is_dst=False) # UTC = no DST
                 return utc_timestamp.astimezone(context_tz)
             except Exception:
                 _logger.debug("failed to compute context/client-specific timestamp, "
                               "using the UTC value",
                               exc_info=True)
-        return timestamp
+        return utc_timestamp
 
 class binary(_column):
     _type = 'binary'

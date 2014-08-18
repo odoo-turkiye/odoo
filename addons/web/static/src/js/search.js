@@ -487,7 +487,6 @@ instance.web.SearchView = instance.web.Widget.extend(/** @lends instance.web.Sea
      */
     setup_global_completion: function () {
         var self = this;
-
         this.autocomplete = new instance.web.search.AutoComplete(this, {
             source: this.proxy('complete_global_search'),
             select: this.proxy('select_completion'),
@@ -1963,7 +1962,7 @@ instance.web.search.Advanced = instance.web.search.Input.extend({
                     context: this.view.dataset.context
                 }).done(function(data) {
                     self.fields = {
-                        id: { string: 'ID', type: 'id' }
+                        id: { string: 'ID', type: 'id', searchable: true }
                     };
                     _.each(data, function(field_def, field_name) {
                         if (field_def.selectable !== false && field_name != 'id') {
@@ -2037,7 +2036,7 @@ instance.web.search.ExtendedSearchProposition = instance.web.Widget.extend(/** @
         this._super(parent);
         this.fields = _(fields).chain()
             .map(function(val, key) { return _.extend({}, val, {'name': key}); })
-            .filter(function (field) { return !field.deprecated && (field.store === void 0 || field.store || field.fnct_search); })
+            .filter(function (field) { return !field.deprecated && field.searchable; })
             .sortBy(function(field) {return field.string;})
             .value();
         this.attrs = {_: _, fields: this.fields, selected: null};
