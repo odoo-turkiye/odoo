@@ -937,6 +937,9 @@ class product_product(osv.osv):
         unlink_ids = []
         unlink_product_tmpl_ids = []
         for product in self.browse(cr, uid, ids, context=context):
+            # Check if product still exists, in case it has been unlinked by unlinking its template
+            if not product.exists():
+                continue
             tmpl_id = product.product_tmpl_id.id
             # Check if the product is last product of this template
             other_product_ids = self.search(cr, uid, [('product_tmpl_id', '=', tmpl_id), ('id', '!=', product.id)], context=context)
@@ -979,7 +982,7 @@ class product_product(osv.osv):
 
         def _name_get(d):
             name = d.get('name','')
-            code = d.get('default_code',False)
+            code = context.get('display_default_code', True) and d.get('default_code',False) or False
             if code:
                 name = '[%s] %s' % (code,name)
             return (d['id'], name)

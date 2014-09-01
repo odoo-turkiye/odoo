@@ -2890,7 +2890,7 @@ instance.web.form.FieldTextHtml = instance.web.form.AbstractField.extend(instanc
         if (! this.get("effective_readonly")) {
             self._updating_editor = false;
             this.$textarea = this.$el.find('textarea');
-            var width = ((this.node.attrs || {}).editor_width || '100%');
+            var width = ((this.node.attrs || {}).editor_width || 'auto');
             var height = ((this.node.attrs || {}).editor_height || 250);
             this.$textarea.cleditor({
                 width:      width, // width not including margins, borders or padding
@@ -3356,7 +3356,7 @@ instance.web.form.CompletionFieldMixin = {
                 });
             }
             // create...
-            if (!(self.options && self.options.no_create)){
+            if (!(self.options && (self.options.no_create || self.options.no_create_edit))){
                 values.push({
                     label: _t("Create and Edit..."),
                     action: function() {
@@ -3660,10 +3660,10 @@ instance.web.form.FieldMany2One = instance.web.form.AbstractField.extend(instanc
             focusout: anyoneLoosesFocus,
             focus: function () { self.trigger('focused'); },
             autocompleteopen: function () { ignore_blur = true; },
-            autocompleteclose: function () { ignore_blur = false; },
+            autocompleteclose: function () { setTimeout(function() {ignore_blur = false;},0); },
             blur: function () {
                 // autocomplete open
-                if (ignore_blur) { return; }
+                if (ignore_blur) { $(this).focus(); return; }
                 if (_(self.getChildren()).any(function (child) {
                     return child instanceof instance.web.form.AbstractFormPopup;
                 })) { return; }
