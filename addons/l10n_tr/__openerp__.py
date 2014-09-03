@@ -22,7 +22,7 @@
 
 {
     'name': 'Turkish - Accounting',
-    'version': '0.7',
+    'version': '1.0',
     'license': 'AGPL-3',
     'category': 'Localization/Account Charts',
     'description': """
