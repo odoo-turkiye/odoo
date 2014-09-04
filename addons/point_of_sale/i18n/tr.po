@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:36+0000\n"
-"PO-Revision-Date: 2013-05-08 01:57+0000\n"
-"Last-Translator: Ediz Duman <neps1192@gmail.com>\n"
+"PO-Revision-Date: 2014-09-04 11:59+0200\n"
+"Last-Translator: Huri Özbayram <info@7gates.co>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-11-21 06:24+0000\n"
-"X-Generator: Launchpad (build 16831)\n"
+"X-Generator: Poedit 1.6.9\n"
+"Language: tr\n"
 
 #. module: point_of_sale
 #: field:report.transaction.pos,product_nb:0
@@ -51,8 +52,8 @@ msgstr ""
 "                dokunmatik ekran arayüzü.\n"
 "              </p><p>\n"
 "                Eğer kategori bir fotoğraf, düzenini koyarsanız\n"
-"                dokunmatik ekran arayüzü otomatik olacak. Biz "
-"önermeyeceğizyükleme\n"
+"                dokunmatik ekran arayüzü otomatik olacak. Biz önermeyeceğiz "
+"yükleme\n"
 "                Küçük (1024x768) ekranlar için kategoriler bir fotoğraf.\n"
 "              </p>\n"
 "            "
@@ -68,8 +69,7 @@ msgid "Computed Balance"
 msgstr "Hesaplanan Bakiye"
 
 #. module: point_of_sale
-#: view:pos.session:0
-#: view:report.pos.order:0
+#: view:pos.session:0 view:report.pos.order:0
 msgid "Today"
 msgstr "Bugün"
 
@@ -96,8 +96,7 @@ msgid "&atilde;"
 msgstr "&atilde"
 
 #. module: point_of_sale
-#: field:pos.config,journal_id:0
-#: field:pos.order,sale_journal:0
+#: field:pos.config,journal_id:0 field:pos.order,sale_journal:0
 msgid "Sale Journal"
 msgstr "Satış Yevmiye"
 
@@ -108,8 +107,7 @@ msgstr "Spa Reine 2L"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_lines_detail
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "Details of Sales"
 msgstr "Satış Detayları"
 
@@ -119,17 +117,14 @@ msgid "You cannot have two cash controls in one Point Of Sale !"
 msgstr "Sen bir SatışNoktasından iki nakiti kontrol edemezsin !"
 
 #. module: point_of_sale
-#: field:pos.payment.report.user,user_id:0
-#: field:pos.sale.user,user_id:0
-#: field:pos.sales.user.today,user_id:0
-#: view:report.pos.order:0
+#: field:pos.payment.report.user,user_id:0 field:pos.sale.user,user_id:0
+#: field:pos.sales.user.today,user_id:0 view:report.pos.order:0
 #: field:report.pos.order,user_id:0
 msgid "Salesperson"
 msgstr "SatışElemanı"
 
 #. module: point_of_sale
-#: view:report.pos.order:0
-#: field:report.pos.order,day:0
+#: view:report.pos.order:0 field:report.pos.order,day:0
 msgid "Day"
 msgstr "Gün"
 
@@ -162,12 +157,9 @@ msgstr ""
 "ekran arayüzü."
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: field:pos.box.entries,amount:0
-#: report:pos.invoice:0
-#: field:pos.make.payment,amount:0
-#: report:pos.user.product:0
-#: field:report.transaction.pos,amount:0
+#: report:account.statement:0 field:pos.box.entries,amount:0
+#: report:pos.invoice:0 field:pos.make.payment,amount:0
+#: report:pos.user.product:0 field:report.transaction.pos,amount:0
 msgid "Amount"
 msgstr "Tutar"
 
@@ -202,8 +194,7 @@ msgstr "Referans"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1066
-#: code:addons/point_of_sale/point_of_sale.py:1083
-#: report:pos.invoice:0
+#: code:addons/point_of_sale/point_of_sale.py:1083 report:pos.invoice:0
 #: report:pos.lines:0
 #, python-format
 msgid "Tax"
@@ -217,7 +208,7 @@ msgstr "Başlama Tarihi"
 #. module: point_of_sale
 #: constraint:pos.session:0
 msgid "You cannot create two active sessions with the same responsible!"
-msgstr "Aynı sorumlu olarak iki aktif oturum oluşturamazasın!"
+msgstr "Aynı sorumlu olarak iki aktif oturum oluşturamazsınız!"
 
 #. module: point_of_sale
 #. openerp-web
@@ -257,14 +248,12 @@ msgid "Closing Cash Control"
 msgstr "Nakit Denetim Kapanış"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "Total of the day"
 msgstr "Gün Toplamı"
 
 #. module: point_of_sale
-#: view:report.pos.order:0
-#: field:report.pos.order,average_price:0
+#: view:report.pos.order:0 field:report.pos.order,average_price:0
 msgid "Average Price"
 msgstr "Ortalama Fiyat"
 
@@ -291,8 +280,7 @@ msgid "Disc. (%)"
 msgstr "İnd. (%)"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "Total discount"
 msgstr "Toplam indirim"
 
@@ -328,8 +316,7 @@ msgstr "Portakal"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_sales_by_user_pos_today
-#: view:report.sales.by.user.pos:0
-#: view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
 msgid "Sales by User"
 msgstr "Kullanıcı Satışları"
 
@@ -345,8 +332,7 @@ msgid "Please define income account for this product: \"%s\" (id:%d)."
 msgstr "Lütfen bu ürün için gelir hesabı belirtin: \"%s\" (id:%d)."
 
 #. module: point_of_sale
-#: view:report.pos.order:0
-#: field:report.pos.order,price_total:0
+#: view:report.pos.order:0 field:report.pos.order,price_total:0
 msgid "Total Price"
 msgstr "Toplam Fiyat"
 
@@ -424,8 +410,7 @@ msgid "Margin"
 msgstr "Marj"
 
 #. module: point_of_sale
-#: field:pos.discount,discount:0
-#: field:pos.order.line,discount:0
+#: field:pos.discount,discount:0 field:pos.order.line,discount:0
 msgid "Discount (%)"
 msgstr "İndirim (%)"
 
@@ -528,16 +513,14 @@ msgid "Validate & Open Session"
 msgstr "Doğrulan & Oturumum Açma"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:99
-#: selection:pos.session,state:0
+#: code:addons/point_of_sale/point_of_sale.py:99 selection:pos.session,state:0
 #: selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "In Progress"
 msgstr "DevamEden"
 
 #. module: point_of_sale
-#: view:pos.session:0
-#: field:pos.session,opening_details_ids:0
+#: view:pos.session:0 field:pos.session,opening_details_ids:0
 msgid "Opening Cash Control"
 msgstr "Nakit Kontrolü Açılış"
 
@@ -585,15 +568,10 @@ msgid "Search Cash Statements"
 msgstr "Kasa Ekstresi Arama"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0
-#: field:pos.config,state:0
-#: view:pos.order:0
-#: field:pos.order,state:0
-#: report:pos.sales.user:0
-#: report:pos.sales.user.today:0
-#: field:pos.session,state:0
-#: field:pos.session.opening,pos_state_str:0
-#: field:report.pos.order,state:0
+#: view:account.bank.statement:0 field:pos.config,state:0 view:pos.order:0
+#: field:pos.order,state:0 report:pos.sales.user:0
+#: report:pos.sales.user.today:0 field:pos.session,state:0
+#: field:pos.session.opening,pos_state_str:0 field:report.pos.order,state:0
 msgid "Status"
 msgstr "Durumu"
 
@@ -653,8 +631,8 @@ msgid ""
 "end\n"
 "                of each session.\n"
 "              </p><p>\n"
-"                Note that you should better to use the menu <i>Your "
-"Session</i>\n"
+"                Note that you should better to use the menu <i>Your Session</"
+"i>\n"
 "                to quickly open a new session.\n"
 "              </p>\n"
 "            "
@@ -691,8 +669,7 @@ msgstr ""
 "edebilirsiniz veya yazarkasa oturumu kapatın."
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: report:all.closed.cashbox.of.the.day:0
+#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,stop_at:0
 msgid "Closing Date"
 msgstr "Kapanış Tarihi"
@@ -713,8 +690,7 @@ msgid "Coca-Cola Light 1L"
 msgstr "Coca-Cola Light 1L"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "Summary"
 msgstr "Özet"
 
@@ -729,9 +705,7 @@ msgid "Chaudfontaine 50cl"
 msgstr "Chaudfontaine 50cl"
 
 #. module: point_of_sale
-#: report:pos.invoice:0
-#: report:pos.lines:0
-#: field:pos.order.line,qty:0
+#: report:pos.invoice:0 report:pos.lines:0 field:pos.order.line,qty:0
 #: field:report.sales.by.user.pos,qty:0
 #: field:report.sales.by.user.pos.month,qty:0
 msgid "Quantity"
@@ -792,13 +766,11 @@ msgid ""
 "Check if, this is a product you can use to take cash from a statement for "
 "the point of sale backend, example: money lost, transfer to bank, etc."
 msgstr ""
-"Olmadığını kontrol edin, bu sizin için bir açıklama nakit almak için "
-"kullanabileceğiniz bir üründür satış noktası arka uç, örnek noktası: para "
-"kaybetti, banka, vb transfer."
+"Eğer bu ürün, satış noktası arka ucundan bir ifadeden para almanızı "
+"sağlayacak bir ürün ise işaretleyin. Örneğin; para kaybı, banka aktarımı, vs."
 
 #. module: point_of_sale
-#: view:report.pos.order:0
-#: field:report.pos.order,total_discount:0
+#: view:report.pos.order:0 field:report.pos.order,total_discount:0
 msgid "Total Discount"
 msgstr "Toplam İndirim"
 
@@ -821,9 +793,7 @@ msgid "Click to start a session."
 msgstr "Bir oturum başlatmak için tıklayın."
 
 #. module: point_of_sale
-#: view:pos.details:0
-#: view:pos.payment.report:0
-#: view:pos.payment.report.user:0
+#: view:pos.details:0 view:pos.payment.report:0 view:pos.payment.report.user:0
 #: view:pos.sale.user:0
 msgid "Print Report"
 msgstr "Rapor Yazdır"
@@ -897,8 +867,7 @@ msgid "Post All Orders"
 msgstr "Bütün Siparişleri İşle"
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: report:all.closed.cashbox.of.the.day:0
+#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,cash_register_balance_end_real:0
 msgid "Ending Balance"
 msgstr "Kapanış Bakiyesi"
@@ -933,10 +902,11 @@ msgstr "San Pellegrino 1L"
 #, python-format
 msgid ""
 "You have to define which payment method must be available in the point of "
-"sale by reusing existing bank and cash through \"Accounting / Configuration "
-"/ Journals / Journals\". Select a journal and check the field \"PoS Payment "
-"Method\" from the \"Point of Sale\" tab. You can also create new payment "
-"methods directly from menu \"PoS Backend / Configuration / Payment Methods\"."
+"sale by reusing existing bank and cash through \"Accounting / "
+"Configuration / Journals / Journals\". Select a journal and check the field "
+"\"PoS Payment Method\" from the \"Point of Sale\" tab. You can also create "
+"new payment methods directly from menu \"PoS Backend / Configuration / "
+"Payment Methods\"."
 msgstr ""
 
 #. module: point_of_sale
@@ -955,8 +925,7 @@ msgid "Spa Reine 1L"
 msgstr "Spa Reine 1L"
 
 #. module: point_of_sale
-#: constraint:res.partner:0
-#: constraint:res.users:0
+#: constraint:res.partner:0 constraint:res.users:0
 msgid "Error: Invalid ean code"
 msgstr "Hata: Geçersiz barkod"
 
@@ -973,8 +942,7 @@ msgid "Open Statements"
 msgstr "Ekstreleri Aç"
 
 #. module: point_of_sale
-#: field:pos.details,date_end:0
-#: field:pos.sale.user,date_end:0
+#: field:pos.details,date_end:0 field:pos.sale.user,date_end:0
 msgid "Date End"
 msgstr "Bitiş Tarihi"
 
@@ -984,8 +952,7 @@ msgid "Jonagold apples"
 msgstr "Jonagold elma"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0
-#: report:account.statement:0
+#: view:account.bank.statement:0 report:account.statement:0
 #: report:all.closed.cashbox.of.the.day:0
 #: model:ir.model,name:point_of_sale.model_account_journal
 #: field:report.pos.order,journal_id:0
@@ -1012,8 +979,7 @@ msgstr ""
 "istiyorsanız bu kontrol edin"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "Total paid"
 msgstr "Toplam ödeme"
 
@@ -1160,8 +1126,7 @@ msgid "Scan Item Success"
 msgstr "Ürün Tarama Başarı"
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: report:all.closed.cashbox.of.the.day:0
+#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,cash_register_balance_start:0
 msgid "Starting Balance"
 msgstr "Açılış Bakiyesi"
@@ -1207,15 +1172,13 @@ msgstr "Kullanıcı Ödemeleri"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:285
 #: code:addons/point_of_sale/wizard/pos_payment.py:79
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_payment
-#: report:pos.details:0
-#: view:pos.order:0
+#: report:pos.details:0 view:pos.order:0
 #, python-format
 msgid "Payment"
 msgstr "Ödeme"
 
 #. module: point_of_sale
-#: view:report.pos.order:0
-#: field:report.pos.order,nbr:0
+#: view:report.pos.order:0 field:report.pos.order,nbr:0
 msgid "# of Lines"
 msgstr "# nın Satırları"
 
@@ -1352,17 +1315,14 @@ msgstr ""
 "kasası açmalısınız."
 
 #. module: point_of_sale
-#: view:report.sales.by.margin.pos:0
-#: view:report.sales.by.margin.pos.month:0
-#: view:report.sales.by.user.pos:0
-#: view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.margin.pos:0 view:report.sales.by.margin.pos.month:0
+#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS "
 msgstr "POS "
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: report:pos.user.product:0
+#: report:account.statement:0 report:pos.user.product:0
 msgid "Total :"
 msgstr "Toplam :"
 
@@ -1387,8 +1347,7 @@ msgid "Pricelist"
 msgstr "FiyatListesi"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "Total invoiced"
 msgstr "Fatura Toplamı"
 
@@ -1399,8 +1358,7 @@ msgid "Point of Sale Category"
 msgstr "Satış Noktası Kategorisi"
 
 #. module: point_of_sale
-#: view:report.pos.order:0
-#: field:report.pos.order,product_qty:0
+#: view:report.pos.order:0 field:report.pos.order,product_qty:0
 msgid "# of Qty"
 msgstr "# nın Mik."
 
@@ -1431,8 +1389,7 @@ msgid "Yellow Peppers"
 msgstr "Sarı Biberler"
 
 #. module: point_of_sale
-#: view:pos.order:0
-#: field:pos.order,date_order:0
+#: view:pos.order:0 field:pos.order,date_order:0
 #: field:report.sales.by.margin.pos,date_order:0
 #: field:report.sales.by.margin.pos.month,date_order:0
 #: field:report.sales.by.user.pos,date_order:0
@@ -1489,8 +1446,7 @@ msgid "September"
 msgstr "Eylül"
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: report:all.closed.cashbox.of.the.day:0
+#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
 #: field:pos.session,start_at:0
 msgid "Opening Date"
 msgstr "Açılış Tarihi"
@@ -1618,13 +1574,9 @@ msgid "Apply Discount"
 msgstr "İndirim Yap"
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: report:all.closed.cashbox.of.the.day:0
-#: field:pos.box.entries,user_id:0
-#: report:pos.sales.user:0
-#: report:pos.sales.user.today:0
-#: view:pos.session:0
-#: report:pos.user.product:0
+#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
+#: field:pos.box.entries,user_id:0 report:pos.sales.user:0
+#: report:pos.sales.user.today:0 view:pos.session:0 report:pos.user.product:0
 #: field:report.sales.by.margin.pos,user_id:0
 #: field:report.sales.by.margin.pos.month,user_id:0
 #: field:report.sales.by.user.pos,user_id:0
@@ -1637,8 +1589,7 @@ msgstr "Kullanıcı"
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:413
 #, python-format
-msgid ""
-"The type of the journal for your payment method should be bank or cash "
+msgid "The type of the journal for your payment method should be bank or cash "
 msgstr ""
 
 #. module: point_of_sale
@@ -1676,8 +1627,7 @@ msgid "transaction for the pos"
 msgstr "POS için işlemler"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: field:report.transaction.pos,date_create:0
+#: report:pos.details:0 field:report.transaction.pos,date_create:0
 msgid "Date"
 msgstr "Tarih"
 
@@ -1756,31 +1706,23 @@ msgstr "İşlem Numarası"
 #: code:addons/point_of_sale/point_of_sale.py:759
 #, python-format
 msgid ""
-"There is no receivable account defined to make payment for the partner: "
-"\"%s\" (id:%d)."
+"There is no receivable account defined to make payment for the partner: \"%s"
+"\" (id:%d)."
 msgstr ""
-"Partner için ödeme yapmak için tanımlanmış bir alacak hesabı yok: \"%s\" "
-"(id:%d)."
+"Partner için ödeme yapmak için tanımlanmış bir alacak hesabı yok: \"%s\" (id:"
+"%d)."
 
 #. module: point_of_sale
-#: view:pos.config:0
-#: selection:pos.config,state:0
+#: view:pos.config:0 selection:pos.config,state:0
 msgid "Inactive"
 msgstr "Pasif"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:313
-#: view:pos.confirm:0
-#: view:pos.details:0
-#: view:pos.discount:0
-#: view:pos.ean_wizard:0
-#: view:pos.make.payment:0
-#: view:pos.open.statement:0
-#: view:pos.payment.report:0
-#: view:pos.payment.report.user:0
-#: view:pos.receipt:0
-#: view:pos.sale.user:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:313 view:pos.confirm:0
+#: view:pos.details:0 view:pos.discount:0 view:pos.ean_wizard:0
+#: view:pos.make.payment:0 view:pos.open.statement:0 view:pos.payment.report:0
+#: view:pos.payment.report.user:0 view:pos.receipt:0 view:pos.sale.user:0
 #, python-format
 msgid "Cancel"
 msgstr "İptal"
@@ -1820,9 +1762,7 @@ msgid "Order IDs Sequence"
 msgstr "Sipariş ID Sıralaması"
 
 #. module: point_of_sale
-#: report:pos.invoice:0
-#: report:pos.lines:0
-#: field:pos.order.line,price_unit:0
+#: report:pos.invoice:0 report:pos.lines:0 field:pos.order.line,price_unit:0
 #: report:pos.payment.report.user:0
 msgid "Unit Price"
 msgstr "Birim Fiyat"
@@ -1853,8 +1793,7 @@ msgid "Lines of Point of Sale"
 msgstr "Satış Noktası Kalemleri"
 
 #. module: point_of_sale
-#: view:pos.order:0
-#: view:report.transaction.pos:0
+#: view:pos.order:0 view:report.transaction.pos:0
 msgid "Amount total"
 msgstr "Toplam Tutar"
 
@@ -1893,10 +1832,8 @@ msgstr "Ref"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:94
-#: report:pos.details:0
-#: report:pos.invoice:0
-#: report:pos.lines:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:94 report:pos.details:0
+#: report:pos.invoice:0 report:pos.lines:0
 #, python-format
 msgid "Price"
 msgstr "Fiyat"
@@ -1907,10 +1844,8 @@ msgid "Coca-Cola Light 33cl"
 msgstr "Coca-Cola Light 33cl"
 
 #. module: point_of_sale
-#: view:report.sales.by.margin.pos:0
-#: view:report.sales.by.margin.pos.month:0
-#: view:report.sales.by.user.pos:0
-#: view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.margin.pos:0 view:report.sales.by.margin.pos.month:0
+#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS"
 msgstr "POS"
@@ -1951,16 +1886,13 @@ msgid "Other Citrus"
 msgstr "Diğer Narenciye"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "Start Period"
 msgstr "Başlama Dönemi"
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: field:pos.category,complete_name:0
-#: field:pos.category,name:0
-#: report:pos.sales.user:0
+#: report:account.statement:0 field:pos.category,complete_name:0
+#: field:pos.category,name:0 report:pos.sales.user:0
 #: report:pos.sales.user.today:0
 msgid "Name"
 msgstr "Adı"
@@ -2007,8 +1939,8 @@ msgid ""
 "Check if, this is a product you can use to put cash into a statement for the "
 "point of sale backend."
 msgstr ""
-"Olmadığını kontrol edin, bu sizin için bir açıklama içine para koymak için "
-"kullanabileceğiniz bir üründür satış noktası arka uçu."
+"Eğer bu ürün, satış noktası arka ucundan bir ifadeye para koymanızı "
+"sağlayacak bir ürün ise işaretleyin. "
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.ijsboerke_moka_2,5l_product_template
@@ -2040,8 +1972,8 @@ msgid ""
 "Unable to open the session. You have to assign a sale journal to your point "
 "of sale."
 msgstr ""
-"Oturum açılamıyor. Satış noktasına bir satış yevmiyesi atamak "
-"zorundasınız.satış olarak."
+"Oturum açılamıyor. Satış noktasına bir satış yevmiye defteri atamak "
+"zorundasınız."
 
 #. module: point_of_sale
 #: view:report.pos.order:0
@@ -2054,13 +1986,9 @@ msgid "Fishing"
 msgstr "Balıkçılık"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
-#: report:pos.lines:0
-#: report:pos.payment.report.user:0
-#: report:pos.sales.user:0
-#: report:pos.sales.user.today:0
-#: report:pos.user.product:0
+#: report:pos.details:0 report:pos.details_summary:0 report:pos.lines:0
+#: report:pos.payment.report.user:0 report:pos.sales.user:0
+#: report:pos.sales.user.today:0 report:pos.user.product:0
 msgid "Print Date"
 msgstr "Yazdırma Tarihi"
 
@@ -2071,14 +1999,11 @@ msgstr "Pırasa"
 
 #. module: point_of_sale
 #: help:pos.category,sequence:0
-msgid ""
-"Gives the sequence order when displaying a list of product categories."
+msgid "Gives the sequence order when displaying a list of product categories."
 msgstr "Ürün kategorilerini gösterirken sıra numarası verir"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0
-#: view:pos.order:0
-#: view:pos.session:0
+#: view:account.bank.statement:0 view:pos.order:0 view:pos.session:0
 #: view:report.pos.order:0
 msgid "Group By..."
 msgstr "Grupla İle..."
@@ -2088,7 +2013,7 @@ msgstr "Grupla İle..."
 #: code:addons/point_of_sale/static/src/xml/pos.xml:564
 #, python-format
 msgid "Shop:"
-msgstr "Mağza:"
+msgstr "Mağaza:"
 
 #. module: point_of_sale
 #: field:account.journal,self_checkout_payment_method:0
@@ -2208,9 +2133,7 @@ msgid "Coca-Cola Light Lemon 2L"
 msgstr "Coca-Cola Light Lemon 2L"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.invoice:0
-#: field:pos.order,amount_tax:0
+#: report:pos.details:0 report:pos.invoice:0 field:pos.order,amount_tax:0
 msgid "Taxes"
 msgstr "Vergi"
 
@@ -2231,8 +2154,7 @@ msgstr "123"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.product_normal_action
 #: model:ir.ui.menu,name:point_of_sale.menu_point_of_sale_product
-#: model:ir.ui.menu,name:point_of_sale.menu_pos_products
-#: view:pos.order:0
+#: model:ir.ui.menu,name:point_of_sale.menu_pos_products view:pos.order:0
 msgid "Products"
 msgstr "Ürünler"
 
@@ -2258,10 +2180,8 @@ msgstr "Satış Noktası Başlat"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:84
-#: report:pos.details:0
-#: report:pos.payment.report.user:0
-#: report:pos.user.product:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:84 report:pos.details:0
+#: report:pos.payment.report.user:0 report:pos.user.product:0
 #: field:report.sales.by.margin.pos,qty:0
 #: field:report.sales.by.margin.pos.month,qty:0
 #, python-format
@@ -2292,8 +2212,7 @@ msgid "Spa Fruit and Orange 50cl"
 msgstr "Spa Meyve ve Turuncu 50 cl"
 
 #. module: point_of_sale
-#: view:pos.config:0
-#: field:pos.config,journal_ids:0
+#: view:pos.config:0 field:pos.config,journal_ids:0
 #: field:pos.session,journal_ids:0
 msgid "Available Payment Methods"
 msgstr "Ödeme Yöntemleri"
@@ -2317,15 +2236,14 @@ msgid ""
 "            "
 msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"                Yeni bir ürün eklemek için tıklayın.\n"
+"                Yeni bir ürün eklemek için tıklayınız.\n"
 "              </p><p>\n"
-"                Satmak için Ürün tanımlamalısınız\n"
-"                satış notası arayüzünde.\n"
+"                Satış noktasından satmak istediğiniz her ürün için\n"
+"                bir ürün tanımlamak zorundasınız.\n"
 "              </p><p>\n"
-"                Fiyat ve satış noktasını ayarlamayı unutmayınkategori\n"
-"                o görünmelidir. Bir ürünün herhangi bir noktası varsa satış\n"
-"                kategori,sen satış noktası üzerinden satmaman değil\n"
-"                arayüz.\n"
+"                Fiyat ve yer alacağı satış noktası kategorisini belirlemeyi\n"
+"               unutmayın. Ieğer bir ürünün satış noktası kategorisi yoksa\n"
+"                o rünü satış noktası arayüzü ile satamazsınız.\n"
 "              </p>\n"
 "            "
 
@@ -2387,8 +2305,7 @@ msgstr "Banka Ekstresi"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:101
-#: selection:pos.session,state:0
-#: selection:pos.session.opening,pos_state:0
+#: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Closed & Posted"
 msgstr "Kapandı & İşlemdi"
@@ -2429,14 +2346,12 @@ msgstr "Temmuz"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_config_pos
-#: model:ir.ui.menu,name:point_of_sale.menu_pos_config_pos
-#: view:pos.session:0
+#: model:ir.ui.menu,name:point_of_sale.menu_pos_config_pos view:pos.session:0
 msgid "Point of Sales"
 msgstr "SatışNoktası"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "Qty of product"
 msgstr "Ürün Mik."
 
@@ -2447,8 +2362,7 @@ msgstr "Altın Elma"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:100
-#: selection:pos.session,state:0
-#: selection:pos.session.opening,pos_state:0
+#: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Closing Control"
 msgstr "Kapanış Kotrolü"
@@ -2493,8 +2407,7 @@ msgid "Jupiler 50cl"
 msgstr "Jupiler 50cl"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.details_summary:0
+#: report:pos.details:0 report:pos.details_summary:0
 msgid "End Period"
 msgstr "Bitiş Dönemi"
 
@@ -2526,8 +2439,7 @@ msgid "Chimay Red 33cl"
 msgstr "Chimay Kırmızı 33 cl"
 
 #. module: point_of_sale
-#: view:report.pos.order:0
-#: field:report.pos.order,month:0
+#: view:report.pos.order:0 field:report.pos.order,month:0
 msgid "Month"
 msgstr "Ay"
 
@@ -2547,8 +2459,7 @@ msgid "Year of order date"
 msgstr "Sipariş Yılı"
 
 #. module: point_of_sale
-#: report:pos.sales.user:0
-#: report:pos.sales.user.today:0
+#: report:pos.sales.user:0 report:pos.sales.user.today:0
 #: field:report.pos.order,date:0
 msgid "Date Order"
 msgstr "Sipariş Tarihi"
@@ -2564,8 +2475,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_new_bank_statement_tree
-#: field:pos.box.entries,journal_id:0
-#: field:pos.session,cash_register_id:0
+#: field:pos.box.entries,journal_id:0 field:pos.session,cash_register_id:0
 msgid "Cash Register"
 msgstr "Yazar Kasa"
 
@@ -2607,8 +2517,7 @@ msgid "Opening Balance"
 msgstr "Açılış Bakiyesi"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0
-#: selection:report.pos.order,state:0
+#: view:account.bank.statement:0 selection:report.pos.order,state:0
 msgid "Closed"
 msgstr "Kapatıldı"
 
@@ -2658,8 +2567,7 @@ msgid "An internal identification of the point of sale"
 msgstr "Satış noktasında bir dahili kimlik"
 
 #. module: point_of_sale
-#: view:pos.config:0
-#: selection:pos.config,state:0
+#: view:pos.config:0 selection:pos.config,state:0
 msgid "Active"
 msgstr "Etkin"
 
@@ -2690,10 +2598,8 @@ msgstr "Donanım Durumu"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:220
 #: code:addons/point_of_sale/static/src/xml/pos.xml:426
 #: code:addons/point_of_sale/static/src/xml/pos.xml:596
-#: report:all.closed.cashbox.of.the.day:0
-#: report:pos.invoice:0
-#: report:pos.lines:0
-#: report:pos.payment.report.user:0
+#: report:all.closed.cashbox.of.the.day:0 report:pos.invoice:0
+#: report:pos.lines:0 report:pos.payment.report.user:0
 #, python-format
 msgid "Total:"
 msgstr "Toplam:"
@@ -2776,9 +2682,7 @@ msgstr "Biten"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:328
 #: model:ir.actions.report.xml,name:point_of_sale.pos_invoice_report
-#: report:pos.invoice:0
-#: view:pos.order:0
-#: field:pos.order,invoice_id:0
+#: report:pos.invoice:0 view:pos.order:0 field:pos.order,invoice_id:0
 #, python-format
 msgid "Invoice"
 msgstr "Fatura"
@@ -2797,14 +2701,12 @@ msgid "Rochefort \"8\" 33cl"
 msgstr "Rochefort \"8\" 33cl"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0
-#: view:pos.session:0
+#: view:account.bank.statement:0 view:pos.session:0
 msgid "Open"
 msgstr "Aç"
 
 #. module: point_of_sale
-#: field:pos.order,name:0
-#: field:pos.order.line,order_id:0
+#: field:pos.order,name:0 field:pos.order.line,order_id:0
 msgid "Order Ref"
 msgstr "Sipariş Ref."
 
@@ -2839,8 +2741,7 @@ msgid "Payment Terminal"
 msgstr "Ödeme Terminali"
 
 #. module: point_of_sale
-#: view:account.bank.statement:0
-#: field:pos.session,user_id:0
+#: view:account.bank.statement:0 field:pos.session,user_id:0
 msgid "Responsible"
 msgstr "Sorumlu"
 
@@ -2884,15 +2785,13 @@ msgid "Today's Payment By User"
 msgstr "Günün Kullanıcı Ödemeleri"
 
 #. module: point_of_sale
-#: view:report.sales.by.margin.pos:0
-#: view:report.sales.by.margin.pos.month:0
+#: view:report.sales.by.margin.pos:0 view:report.sales.by.margin.pos.month:0
 msgid "Sales by User Margin"
 msgstr "Kullanıcı Oranına göre Satışlar"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:427
-#: report:pos.invoice:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:427 report:pos.invoice:0
 #, python-format
 msgid "Taxes:"
 msgstr "Vergi:"
@@ -2909,12 +2808,9 @@ msgstr "POS İstatistikleri"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_product_product
-#: report:pos.details:0
-#: field:pos.order.line,product_id:0
-#: report:pos.payment.report.user:0
-#: report:pos.user.product:0
-#: view:report.pos.order:0
-#: field:report.pos.order,product_id:0
+#: report:pos.details:0 field:pos.order.line,product_id:0
+#: report:pos.payment.report.user:0 report:pos.user.product:0
+#: view:report.pos.order:0 field:report.pos.order,product_id:0
 msgid "Product"
 msgstr "Ürün"
 
@@ -2954,8 +2850,7 @@ msgstr "Lütfen bekleyin, bir kasiyer yolda"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_session_opening.py:67
-#: field:pos.box.entries,session_id:0
-#: view:pos.order:0
+#: field:pos.box.entries,session_id:0 view:pos.order:0
 #: field:pos.order,session_id:0
 #, python-format
 msgid "Session"
@@ -2972,8 +2867,7 @@ msgid "Dr. Oetker La Margherita"
 msgstr "Dr. Oetker La Margherita"
 
 #. module: point_of_sale
-#: view:pos.order:0
-#: selection:pos.order,state:0
+#: view:pos.order:0 selection:pos.order,state:0
 msgid "Posted"
 msgstr "İşlendi"
 
@@ -3034,8 +2928,7 @@ msgid "Order"
 msgstr "Sipariş"
 
 #. module: point_of_sale
-#: model:ir.model,name:point_of_sale.model_res_users
-#: report:pos.details:0
+#: model:ir.model,name:point_of_sale.model_res_users report:pos.details:0
 msgid "Users"
 msgstr "Kullanıcılar"
 
@@ -3072,16 +2965,13 @@ msgid "Lays Salt and Pepper Oven Baked 150g"
 msgstr "Lays Salt and Pepper Oven Baked 150g"
 
 #. module: point_of_sale
-#: field:pos.details,date_start:0
-#: field:pos.sale.user,date_start:0
+#: field:pos.details,date_start:0 field:pos.sale.user,date_start:0
 msgid "Date Start"
 msgstr "Başlama Tarihi"
 
 #. module: point_of_sale
-#: field:pos.order,amount_total:0
-#: report:pos.payment.report.user:0
-#: view:pos.session:0
-#: field:report.sales.by.user.pos,amount:0
+#: field:pos.order,amount_total:0 report:pos.payment.report.user:0
+#: view:pos.session:0 field:report.sales.by.user.pos,amount:0
 #: field:report.sales.by.user.pos.month,amount:0
 msgid "Total"
 msgstr "Toplam"
@@ -3170,17 +3060,11 @@ msgid "Generate Journal Entries"
 msgstr "Yevmiye Kayıtlarını Oluştur"
 
 #. module: point_of_sale
-#: report:account.statement:0
-#: report:all.closed.cashbox.of.the.day:0
-#: report:pos.details:0
-#: report:pos.details_summary:0
-#: report:pos.lines:0
-#: field:pos.order,company_id:0
-#: field:pos.order.line,company_id:0
-#: report:pos.payment.report.user:0
-#: report:pos.sales.user:0
-#: report:pos.sales.user.today:0
-#: report:pos.user.product:0
+#: report:account.statement:0 report:all.closed.cashbox.of.the.day:0
+#: report:pos.details:0 report:pos.details_summary:0 report:pos.lines:0
+#: field:pos.order,company_id:0 field:pos.order.line,company_id:0
+#: report:pos.payment.report.user:0 report:pos.sales.user:0
+#: report:pos.sales.user.today:0 report:pos.user.product:0
 #: field:report.pos.order,company_id:0
 msgid "Company"
 msgstr "Firma"
@@ -3292,8 +3176,7 @@ msgid "No. Of Articles"
 msgstr "Ürün Adedi"
 
 #. module: point_of_sale
-#: selection:pos.order,state:0
-#: selection:report.pos.order,state:0
+#: selection:pos.order,state:0 selection:report.pos.order,state:0
 msgid "Cancelled"
 msgstr "İptalEdildi"
 
@@ -3327,11 +3210,10 @@ msgid "Ice Cream"
 msgstr "Dondurma"
 
 #. module: point_of_sale
-#: field:pos.config,shop_id:0
-#: field:pos.order,shop_id:0
+#: field:pos.config,shop_id:0 field:pos.order,shop_id:0
 #: field:report.pos.order,shop_id:0
 msgid "Shop"
-msgstr "Mağza"
+msgstr "Mağaza"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_box_entries.py:123
@@ -3360,8 +3242,7 @@ msgid "IJsboerke Stracciatella 2.5L"
 msgstr "IJsboerke Stracciatella 2.5L"
 
 #. module: point_of_sale
-#: view:report.sales.by.user.pos:0
-#: view:report.sales.by.user.pos.month:0
+#: view:report.sales.by.user.pos:0 view:report.sales.by.user.pos.month:0
 #: view:report.transaction.pos:0
 msgid "POS Report"
 msgstr "POS Raporu"
@@ -3455,8 +3336,7 @@ msgstr ""
 "Bu oturumun tüm siparişler teyit edemez.çünkü olmayanlar var'ödeme' durumu"
 
 #. module: point_of_sale
-#: view:pos.order:0
-#: selection:pos.order,state:0
+#: view:pos.order:0 selection:pos.order,state:0
 #: selection:report.pos.order,state:0
 msgid "New"
 msgstr "Yeni"
@@ -3568,8 +3448,7 @@ msgid "Spa Barisart 1.5l"
 msgstr "Spa Barisart 1.5l"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:810
-#: view:pos.order:0
+#: code:addons/point_of_sale/point_of_sale.py:810 view:pos.order:0
 #, python-format
 msgid "Return Products"
 msgstr "Ürünleri İade Et"
@@ -3597,47 +3476,32 @@ msgid "Sales Details"
 msgstr "Satış Detayları"
 
 #. module: point_of_sale
-#: view:account.journal:0
-#: model:ir.model,name:point_of_sale.model_pos_order
+#: view:account.journal:0 model:ir.model,name:point_of_sale.model_pos_order
 #: model:ir.ui.menu,name:point_of_sale.menu_point_rep
 #: model:ir.ui.menu,name:point_of_sale.menu_point_root
-#: field:pos.session,config_id:0
-#: field:pos.session.opening,pos_config_id:0
-#: view:product.product:0
-#: view:res.partner:0
-#: view:res.users:0
+#: field:pos.session,config_id:0 field:pos.session.opening,pos_config_id:0
+#: view:product.product:0 view:res.partner:0 view:res.users:0
 msgid "Point of Sale"
 msgstr "SatışNoktası(POS)"
 
 #. module: point_of_sale
-#: view:pos.order:0
-#: field:pos.order,user_id:0
+#: view:pos.order:0 field:pos.order,user_id:0
 msgid "Salesman"
 msgstr "SatışElemanı"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:41
-#: view:pos.confirm:0
-#: view:pos.details:0
-#: view:pos.discount:0
-#: view:pos.ean_wizard:0
-#: view:pos.make.payment:0
-#: view:pos.open.statement:0
-#: view:pos.payment.report:0
-#: view:pos.payment.report.user:0
-#: view:pos.receipt:0
-#: view:pos.sale.user:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:41 view:pos.confirm:0
+#: view:pos.details:0 view:pos.discount:0 view:pos.ean_wizard:0
+#: view:pos.make.payment:0 view:pos.open.statement:0 view:pos.payment.report:0
+#: view:pos.payment.report.user:0 view:pos.receipt:0 view:pos.sale.user:0
 #, python-format
 msgid "or"
 msgstr "veya"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: view:pos.order:0
-#: selection:pos.order,state:0
-#: view:report.pos.order:0
-#: selection:report.pos.order,state:0
+#: report:pos.details:0 view:pos.order:0 selection:pos.order,state:0
+#: view:report.pos.order:0 selection:report.pos.order,state:0
 msgid "Invoiced"
 msgstr "Faturalandı"
 
@@ -3666,13 +3530,12 @@ msgid ""
 "            "
 msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"                Yeni bir sipariş oluşturmak için tıklayın.\n"
+"                Yeni bir sipariş oluşturmak için tıklayınız.\n"
 "              </p><p>\n"
-"                Sizin Bundan önceki siparişleri göz atmak için bu menüyü "
-"kullanın. kaydetmek içinyeni\n"
-"                siparişleri, daha iyi menü <i> Oturum kullanmalısınız</i> "
-"için\n"
-"                dokunmatik ekran arayüzü.\n"
+"                Önceki siparişleriniz arasında gezinmek için bu menüyü "
+"kullanın. Yeni sipariş kayıt etmek için,\n"
+"               dokunmatik arayüz için, <i>Sizin oturumunuz</i> for\n"
+"                menüsünü kullanmanız daha iyi olucaktır.\n"
 "              </p>\n"
 "            "
 
@@ -3720,8 +3583,7 @@ msgid "Mode of Taxes"
 msgstr "Vergi Yöntemi"
 
 #. module: point_of_sale
-#: field:pos.order,amount_paid:0
-#: selection:pos.order,state:0
+#: field:pos.order,amount_paid:0 selection:pos.order,state:0
 msgid "Paid"
 msgstr "Ödendi"
 
@@ -3783,8 +3645,7 @@ msgstr "Dr. Oetker Ristorante Hawaii"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/xml/pos.xml:483
-#: view:pos.receipt:0
+#: code:addons/point_of_sale/static/src/xml/pos.xml:483 view:pos.receipt:0
 #, python-format
 msgid "Print Receipt"
 msgstr "Fişi Yazdır"
@@ -3864,8 +3725,7 @@ msgid "Dr. Oetker Ristorante Mozzarella"
 msgstr "Dr. Oetker Ristorante Mozzarella"
 
 #. module: point_of_sale
-#: report:pos.details:0
-#: report:pos.payment.report.user:0
+#: report:pos.details:0 report:pos.payment.report.user:0
 msgid "Disc(%)"
 msgstr "İnd(%)"
 
@@ -3984,8 +3844,7 @@ msgid "Customer Code"
 msgstr "Müşteri Kodu"
 
 #. module: point_of_sale
-#: report:pos.invoice:0
-#: report:pos.lines:0
+#: report:pos.invoice:0 report:pos.lines:0
 msgid "Description"
 msgstr "Açıklama"
 
@@ -4066,9 +3925,7 @@ msgstr ""
 "            "
 
 #. module: point_of_sale
-#: view:pos.order:0
-#: field:pos.order,partner_id:0
-#: view:report.pos.order:0
+#: view:pos.order:0 field:pos.order,partner_id:0 view:report.pos.order:0
 msgid "Customer"
 msgstr "Müşteri"
 
@@ -4108,8 +3965,7 @@ msgid "April"
 msgstr "Nisan"
 
 #. module: point_of_sale
-#: view:pos.order:0
-#: field:pos.order,statement_ids:0
+#: view:pos.order:0 field:pos.order,statement_ids:0
 msgid "Payments"
 msgstr "Ödemeler"
 
@@ -4162,8 +4018,7 @@ msgid "Sequence"
 msgstr "Sıralama"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/wizard/pos_return.py:316
-#: view:pos.make.payment:0
+#: code:addons/point_of_sale/wizard/pos_return.py:316 view:pos.make.payment:0
 #, python-format
 msgid "Make Payment"
 msgstr "Ödeme Yapma"
@@ -4186,8 +4041,7 @@ msgid "Next Order"
 msgstr "Sonraki Sipariş"
 
 #. module: point_of_sale
-#: code:addons/point_of_sale/point_of_sale.py:98
-#: selection:pos.session,state:0
+#: code:addons/point_of_sale/point_of_sale.py:98 selection:pos.session,state:0
 #: selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Opening Control"
@@ -4199,8 +4053,7 @@ msgid "Month of order date"
 msgstr "Sipariş Tarihi Ayı"
 
 #. module: point_of_sale
-#: view:report.pos.order:0
-#: field:report.pos.order,year:0
+#: view:report.pos.order:0 field:report.pos.order,year:0
 msgid "Year"
 msgstr "Yıl"
 

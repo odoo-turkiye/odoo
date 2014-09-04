@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:36+0000\n"
-"PO-Revision-Date: 2013-08-04 16:34+0000\n"
-"Last-Translator: Ediz Duman <neps1192@gmail.com>\n"
+"PO-Revision-Date: 2014-09-03 12:17+0200\n"
+"Last-Translator: Huri Özbayram <info@7gates.co>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-11-21 06:13+0000\n"
-"X-Generator: Launchpad (build 16831)\n"
+"X-Generator: Poedit 1.6.9\n"
+"Language: tr\n"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.act_analytic_cost_revenue
@@ -143,8 +144,7 @@ msgid "Work done in the last period"
 msgstr "Son dönemde yapılan işler"
 
 #. module: hr_timesheet
-#: field:hr.sign.in.project,name:0
-#: field:hr.sign.out.project,name:0
+#: field:hr.sign.in.project,name:0 field:hr.sign.out.project,name:0
 msgid "Employees name"
 msgstr "Personel adı"
 
@@ -278,8 +278,7 @@ msgid "July"
 msgstr "Temmuz"
 
 #. module: hr_timesheet
-#: field:hr.sign.in.project,date:0
-#: field:hr.sign.out.project,date_start:0
+#: field:hr.sign.in.project,date:0 field:hr.sign.out.project,date_start:0
 msgid "Starting Date"
 msgstr "Başlama Tarihi"
 
@@ -292,7 +291,7 @@ msgstr "Bu personel için maliyet birim belirtiniz."
 #. module: hr_timesheet
 #: help:hr.employee,product_id:0
 msgid "Specifies employee's designation as a product with type 'service'."
-msgstr "Türü 'hizmet' olan bir ürünü  çalışanın atamyın."
+msgstr "Çalışanın tanımını 'hizmet' türünden bir ürün olarak belirtir."
 
 #. module: hr_timesheet
 #: code:addons/hr_timesheet/hr_timesheet.py:188
@@ -356,8 +355,7 @@ msgstr "İş Açıklaması"
 
 #. module: hr_timesheet
 #: view:hr.analytical.timesheet.employee:0
-#: view:hr.analytical.timesheet.users:0
-#: view:hr.sign.in.project:0
+#: view:hr.analytical.timesheet.users:0 view:hr.sign.in.project:0
 #: view:hr.sign.out.project:0
 msgid "or"
 msgstr "veya"
@@ -365,7 +363,7 @@ msgstr "veya"
 #. module: hr_timesheet
 #: xsl:hr.analytical.timesheet:0
 msgid "Timesheet by Employee"
-msgstr "ZamanÇizelges Personele göre"
+msgstr "Personele göre Zaman Çizelgesi"
 
 #. module: hr_timesheet
 #: model:ir.actions.report.xml,name:hr_timesheet.report_user_timesheet
@@ -396,8 +394,7 @@ msgid "(Keep empty for current time)"
 msgstr "(Şimdiki zaman için boş tutun)"
 
 #. module: hr_timesheet
-#: field:account.analytic.account,use_timesheets:0
-#: view:hr.employee:0
+#: field:account.analytic.account,use_timesheets:0 view:hr.employee:0
 msgid "Timesheets"
 msgstr "ZamanÇizelgeleri"
 
@@ -431,7 +428,7 @@ msgid ""
 "You should assign an analytic journal on the employee form."
 msgstr ""
 "'%s' Için tanımlanmış bir analitik yevmiye yok.\n"
-"Sen personel formundan bir analitik yevmiye atamalısın."
+"Siz personel formundan bir analitik yevmiye atamalısınız."
 
 #. module: hr_timesheet
 #: code:addons/hr_timesheet/report/user_timesheet.py:41
@@ -443,8 +440,7 @@ msgid "June"
 msgstr "Haziran"
 
 #. module: hr_timesheet
-#: field:hr.sign.in.project,state:0
-#: field:hr.sign.out.project,state:0
+#: field:hr.sign.in.project,state:0 field:hr.sign.out.project,state:0
 msgid "Current Status"
 msgstr "Şimdiki Durumu"
 
@@ -493,8 +489,7 @@ msgid "Thu"
 msgstr "Per"
 
 #. module: hr_timesheet
-#: view:hr.sign.in.project:0
-#: view:hr.sign.out.project:0
+#: view:hr.sign.in.project:0 view:hr.sign.out.project:0
 msgid "Sign In/Out by Project"
 msgstr "Giriş/Çıkış Projeden"
 
@@ -504,8 +499,7 @@ msgid "Print Employee Timesheet & Print My Timesheet"
 msgstr "Personel ZamanÇizelgesi Yazdır ve Benim ZamanÇizelgemi Yazdır"
 
 #. module: hr_timesheet
-#: field:hr.sign.in.project,emp_id:0
-#: field:hr.sign.out.project,emp_id:0
+#: field:hr.sign.in.project,emp_id:0 field:hr.sign.out.project,emp_id:0
 msgid "Employee ID"
 msgstr "Personel ID"
 
@@ -521,8 +515,7 @@ msgstr "Genel Bilgisi"
 
 #. module: hr_timesheet
 #: view:hr.analytical.timesheet.employee:0
-#: view:hr.analytical.timesheet.users:0
-#: view:hr.sign.in.project:0
+#: view:hr.analytical.timesheet.users:0 view:hr.sign.in.project:0
 #: view:hr.sign.out.project:0
 msgid "Cancel"
 msgstr "İptal"
@@ -554,9 +547,9 @@ msgid ""
 "project generates costs on the analytic account. This feature allows to "
 "record at the same time the attendance and the timesheet."
 msgstr ""
-"Çalışanlar, üzerine atanan farklı projeler için harcanan zamanı "
-"kodlama.projen analitik bir hesaptır ve harcanan zaman Proje analitik "
-"maliyeti hesap oluşturur.Bu özellik, aynı zamanda katılım ve "
+"Çalışanlar, üzerine atanan farklı projeler için harcanan zamanı kodlama.Bir "
+"proje bir analitik bir hesaptır ve bir proje üzerinde harcanan zaman  "
+"analitik maliyet hesabını oluşturur.Bu özellik, aynı zamanda katılım ve "
 "zamançizelgesine kaydetmenize olanak verir."
 
 #. module: hr_timesheet
@@ -571,8 +564,7 @@ msgid "Timesheet Line"
 msgstr "ZamanÇizelge Satırı"
 
 #. module: hr_timesheet
-#: view:hr.analytic.timesheet:0
-#: field:hr.employee,product_id:0
+#: view:hr.analytic.timesheet:0 field:hr.employee,product_id:0
 msgid "Product"
 msgstr "Ürünler"
 
@@ -681,8 +673,7 @@ msgid "Accounting"
 msgstr "Muhasebe"
 
 #. module: hr_timesheet
-#: xsl:hr.analytical.timesheet:0
-#: xsl:hr.analytical.timesheet_users:0
+#: xsl:hr.analytical.timesheet:0 xsl:hr.analytical.timesheet_users:0
 msgid "Total"
 msgstr "Toplam"
 

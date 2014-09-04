@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:36+0000\n"
-"PO-Revision-Date: 2013-11-24 21:03+0000\n"
-"Last-Translator: Ediz Duman <neps1192@gmail.com>\n"
+"PO-Revision-Date: 2014-09-03 10:24+0200\n"
+"Last-Translator: Huri Özbayram <info@7gates.co>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-11-25 06:00+0000\n"
-"X-Generator: Launchpad (build 16831)\n"
+"X-Generator: Poedit 1.6.9\n"
+"Language: tr\n"
 
 #. module: crm_claim
 #: help:crm.claim.stage,fold:0
@@ -32,8 +33,7 @@ msgid "# of Cases"
 msgstr "Vaka #"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: view:crm.claim.report:0
+#: view:crm.claim:0 view:crm.claim.report:0
 msgid "Group By..."
 msgstr "Grupla İle..."
 
@@ -54,7 +54,7 @@ msgstr ""
 #. module: crm_claim
 #: model:ir.model,name:crm_claim.model_crm_claim_stage
 msgid "Claim stages"
-msgstr "Şikaye aşamsı"
+msgstr "İstek aşaması"
 
 #. module: crm_claim
 #: selection:crm.claim.report,month:0
@@ -77,8 +77,7 @@ msgid "Resolution"
 msgstr "Çözüm"
 
 #. module: crm_claim
-#: field:crm.claim,company_id:0
-#: view:crm.claim.report:0
+#: field:crm.claim,company_id:0 view:crm.claim.report:0
 #: field:crm.claim.report,company_id:0
 msgid "Company"
 msgstr "Firma"
@@ -121,14 +120,12 @@ msgid "Salesperson"
 msgstr "Satış Temsilcisi"
 
 #. module: crm_claim
-#: selection:crm.claim,priority:0
-#: selection:crm.claim.report,priority:0
+#: selection:crm.claim,priority:0 selection:crm.claim.report,priority:0
 msgid "Highest"
 msgstr "En yüksek"
 
 #. module: crm_claim
-#: view:crm.claim.report:0
-#: field:crm.claim.report,day:0
+#: view:crm.claim.report:0 field:crm.claim.report,day:0
 msgid "Day"
 msgstr "Gün"
 
@@ -148,11 +145,10 @@ msgid "Factual Claims"
 msgstr "Gerçek Şikayetler"
 
 #. module: crm_claim
-#: selection:crm.claim,state:0
-#: selection:crm.claim.report,state:0
+#: selection:crm.claim,state:0 selection:crm.claim.report,state:0
 #: selection:crm.claim.stage,state:0
 msgid "Cancelled"
-msgstr "İptalEdildi"
+msgstr "İptal Edildi"
 
 #. module: crm_claim
 #: model:crm.case.resource.type,name:crm_claim.type_claim2
@@ -199,16 +195,13 @@ msgstr ""
 "eklenebilmesi için html biçimindedir."
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: field:crm.claim,date_deadline:0
+#: view:crm.claim:0 field:crm.claim,date_deadline:0
 #: field:crm.claim.report,date_deadline:0
 msgid "Deadline"
 msgstr "ZamanSınırı"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: field:crm.claim,partner_id:0
-#: view:crm.claim.report:0
+#: view:crm.claim:0 field:crm.claim,partner_id:0 view:crm.claim.report:0
 #: field:crm.claim.report,partner_id:0
 #: model:ir.model,name:crm_claim.model_res_partner
 msgid "Partner"
@@ -220,8 +213,7 @@ msgid "Follow Up"
 msgstr "İzleme"
 
 #. module: crm_claim
-#: selection:crm.claim,type_action:0
-#: selection:crm.claim.report,type_action:0
+#: selection:crm.claim,type_action:0 selection:crm.claim.report,type_action:0
 msgid "Preventive Action"
 msgstr "Önleyici İşlem"
 
@@ -241,8 +233,7 @@ msgid "Trouble Responsible"
 msgstr "Problemin Sorumlusu"
 
 #. module: crm_claim
-#: field:crm.claim,priority:0
-#: view:crm.claim.report:0
+#: field:crm.claim,priority:0 view:crm.claim.report:0
 #: field:crm.claim.report,priority:0
 msgid "Priority"
 msgstr "Öncelik"
@@ -258,9 +249,7 @@ msgid "Followers"
 msgstr "İzleyiciler"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: selection:crm.claim,state:0
-#: view:crm.claim.report:0
+#: view:crm.claim:0 selection:crm.claim,state:0 view:crm.claim.report:0
 #: model:crm.claim.stage,name:crm_claim.stage_claim1
 #: selection:crm.claim.stage,state:0
 msgid "New"
@@ -277,8 +266,7 @@ msgid "Email"
 msgstr "E-posta"
 
 #. module: crm_claim
-#: selection:crm.claim,priority:0
-#: selection:crm.claim.report,priority:0
+#: selection:crm.claim,priority:0 selection:crm.claim.report,priority:0
 msgid "Lowest"
 msgstr "En düşük"
 
@@ -343,9 +331,7 @@ msgid "Categories"
 msgstr "Kategoriler"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: field:crm.claim,stage_id:0
-#: view:crm.claim.report:0
+#: view:crm.claim:0 field:crm.claim,stage_id:0 view:crm.claim.report:0
 #: field:crm.claim.report,stage_id:0
 msgid "Stage"
 msgstr "Aşama"
@@ -425,14 +411,12 @@ msgid "December"
 msgstr "Aralık"
 
 #. module: crm_claim
-#: view:crm.claim.report:0
-#: field:crm.claim.report,month:0
+#: view:crm.claim.report:0 field:crm.claim.report,month:0
 msgid "Month"
 msgstr "Ay"
 
 #. module: crm_claim
-#: field:crm.claim,type_action:0
-#: view:crm.claim.report:0
+#: field:crm.claim,type_action:0 view:crm.claim.report:0
 #: field:crm.claim.report,type_action:0
 msgid "Action Type"
 msgstr "İşlem Türü"
@@ -457,8 +441,7 @@ msgstr ""
 "önerilecektir. Varolan takımlara bu aşama atanmayacaktır."
 
 #. module: crm_claim
-#: field:crm.claim,categ_id:0
-#: view:crm.claim.report:0
+#: field:crm.claim,categ_id:0 view:crm.claim.report:0
 #: field:crm.claim.report,categ_id:0
 msgid "Category"
 msgstr "Kategori"
@@ -494,16 +477,13 @@ msgid "Draft"
 msgstr "Taslak"
 
 #. module: crm_claim
-#: selection:crm.claim,priority:0
-#: selection:crm.claim.report,priority:0
+#: selection:crm.claim,priority:0 selection:crm.claim.report,priority:0
 msgid "Low"
 msgstr "Düşük"
 
 #. module: crm_claim
-#: field:crm.claim,date_closed:0
-#: selection:crm.claim,state:0
-#: selection:crm.claim.report,state:0
-#: selection:crm.claim.stage,state:0
+#: field:crm.claim,date_closed:0 selection:crm.claim,state:0
+#: selection:crm.claim.report,state:0 selection:crm.claim.stage,state:0
 msgid "Closed"
 msgstr "Kapandı"
 
@@ -523,20 +503,14 @@ msgid "Claim Stage"
 msgstr "Şikayet Aşaması"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: selection:crm.claim,state:0
-#: view:crm.claim.report:0
-#: selection:crm.claim.report,state:0
-#: selection:crm.claim.stage,state:0
+#: view:crm.claim:0 selection:crm.claim,state:0 view:crm.claim.report:0
+#: selection:crm.claim.report,state:0 selection:crm.claim.stage,state:0
 msgid "Pending"
 msgstr "Bekleyen"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: field:crm.claim,state:0
-#: view:crm.claim.report:0
-#: field:crm.claim.report,state:0
-#: field:crm.claim.stage,state:0
+#: view:crm.claim:0 field:crm.claim,state:0 view:crm.claim.report:0
+#: field:crm.claim.report,state:0 field:crm.claim.stage,state:0
 msgid "Status"
 msgstr "Durumu"
 
@@ -546,8 +520,7 @@ msgid "August"
 msgstr "Ağustos"
 
 #. module: crm_claim
-#: selection:crm.claim,priority:0
-#: selection:crm.claim.report,priority:0
+#: selection:crm.claim,priority:0 selection:crm.claim.report,priority:0
 msgid "Normal"
 msgstr "Normal"
 
@@ -585,8 +558,8 @@ msgstr "Kullanıcı"
 #: model:ir.actions.act_window,help:crm_claim.crm_claim_stage_act
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to setup a new stage in the processing of the claims. "
-"\n"
+"                Click to setup a new stage in the processing of the "
+"claims. \n"
 "              </p><p>\n"
 "                You can create claim stages to categorize the status of "
 "every\n"
@@ -662,8 +635,7 @@ msgid "January"
 msgstr "Ocak"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: field:crm.claim,date:0
+#: view:crm.claim:0 field:crm.claim,date:0
 msgid "Claim Date"
 msgstr "Şikayet Tarihi"
 
@@ -683,19 +655,16 @@ msgid "Common to All Teams"
 msgstr "Bütün Ekiplerde Ortak"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: view:crm.claim.report:0
+#: view:crm.claim:0 view:crm.claim.report:0
 #: model:ir.actions.act_window,name:crm_claim.act_claim_partner
 #: model:ir.actions.act_window,name:crm_claim.crm_case_categ_claim0
-#: model:ir.ui.menu,name:crm_claim.menu_crm_case_claims
-#: view:res.partner:0
+#: model:ir.ui.menu,name:crm_claim.menu_crm_case_claims view:res.partner:0
 #: field:res.partner,claims_ids:0
 msgid "Claims"
 msgstr "Şikayetler"
 
 #. module: crm_claim
-#: selection:crm.claim,type_action:0
-#: selection:crm.claim.report,type_action:0
+#: selection:crm.claim,type_action:0 selection:crm.claim.report,type_action:0
 msgid "Corrective Action"
 msgstr "Düzeltici İşlem"
 
@@ -710,8 +679,7 @@ msgid "Date Closed"
 msgstr "Kapatılma Tarihi"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: model:ir.model,name:crm_claim.model_crm_claim
+#: view:crm.claim:0 model:ir.model,name:crm_claim.model_crm_claim
 #: model:ir.ui.menu,name:crm_claim.menu_config_claim
 msgid "Claim"
 msgstr "Şikayet"
@@ -737,8 +705,7 @@ msgid "Cancel"
 msgstr "İptal"
 
 #. module: crm_claim
-#: view:crm.claim.report:0
-#: selection:crm.claim.report,state:0
+#: view:crm.claim.report:0 selection:crm.claim.report,state:0
 msgid "Open"
 msgstr "Aç"
 
@@ -748,16 +715,14 @@ msgid "New Claims"
 msgstr "Yeni Şikayetler"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: selection:crm.claim,state:0
+#: view:crm.claim:0 selection:crm.claim,state:0
 #: model:crm.claim.stage,name:crm_claim.stage_claim5
 #: selection:crm.claim.stage,state:0
 msgid "In Progress"
 msgstr "Devam Eden"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: field:crm.claim,user_id:0
+#: view:crm.claim:0 field:crm.claim,user_id:0
 msgid "Responsible"
 msgstr "Sorumlu"
 
@@ -802,8 +767,7 @@ msgid "May"
 msgstr "Mayıs"
 
 #. module: crm_claim
-#: view:crm.claim:0
-#: view:crm.claim.report:0
+#: view:crm.claim:0 view:crm.claim.report:0
 msgid "Type"
 msgstr "Türü"
 
@@ -838,8 +802,8 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Record and track your customers' claims. Claims may be "
 "linked to a sales order or a lot.You can send emails with attachments and "
-"keep the full history for a claim (emails sent, intervention type and so "
-"on).Claims may automatically be linked to an email address using the mail "
+"keep the full history for a claim (emails sent, intervention type and so on)."
+"Claims may automatically be linked to an email address using the mail "
 "gateway module.\n"
 "            </p>\n"
 "            "
@@ -855,8 +819,7 @@ msgstr ""
 "            "
 
 #. module: crm_claim
-#: view:crm.claim.report:0
-#: field:crm.claim.report,name:0
+#: view:crm.claim.report:0 field:crm.claim.report,name:0
 msgid "Year"
 msgstr "Yıl"
 
@@ -901,14 +864,12 @@ msgid "Actions"
 msgstr "İşlemler"
 
 #. module: crm_claim
-#: selection:crm.claim,priority:0
-#: selection:crm.claim.report,priority:0
+#: selection:crm.claim,priority:0 selection:crm.claim.report,priority:0
 msgid "High"
 msgstr "Yüksek"
 
 #. module: crm_claim
-#: field:crm.claim,section_id:0
-#: view:crm.claim.report:0
+#: field:crm.claim,section_id:0 view:crm.claim.report:0
 msgid "Sales Team"
 msgstr "Satış Takımı"
 
@@ -939,11 +900,12 @@ msgstr "Reddedilen aşamalar yapılmış belirli aşamalardır."
 #~ msgid ""
 #~ "Record and track your customers' claims. Claims may be linked to a sales "
 #~ "order or a lot. You can send emails with attachments and keep the full "
-#~ "history for a claim (emails sent, intervention type and so on). Claims may "
-#~ "automatically be linked to an email address using the mail gateway module."
+#~ "history for a claim (emails sent, intervention type and so on). Claims "
+#~ "may automatically be linked to an email address using the mail gateway "
+#~ "module."
 #~ msgstr ""
 #~ "Müşterilerinizin şikayetlerini kayıt ve takip edin. Şikayetler bir satış "
-#~ "siparişiyle ya da gönderilen ürünlerle ilgili olabilir. Ekleriyle birlikte "
-#~ "eposta gönderebilir ve şikayetlerin geçmiş kayıtlarının tamamını "
+#~ "siparişiyle ya da gönderilen ürünlerle ilgili olabilir. Ekleriyle "
+#~ "birlikte eposta gönderebilir ve şikayetlerin geçmiş kayıtlarının tamamını "
 #~ "tutabilirsiniz (gönderilen e-postalar, müdahale tipi vb.). Şikayetler "
 #~ "otomatik olarak eposta adresi ile ilişkilendirilir."

@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:37+0000\n"
-"PO-Revision-Date: 2013-03-08 21:27+0000\n"
-"Last-Translator: Ayhan KIZILTAN <Unknown>\n"
+"PO-Revision-Date: 2014-09-03 12:30+0200\n"
+"Last-Translator: Huri Özbayram <info@7gates.co>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-11-21 06:18+0000\n"
-"X-Generator: Launchpad (build 16831)\n"
+"X-Generator: Poedit 1.6.9\n"
+"Language: tr\n"
 
 #. module: lunch
-#: field:lunch.product,category_id:0
-#: field:lunch.product.category,name:0
+#: field:lunch.product,category_id:0 field:lunch.product.category,name:0
 msgid "Category"
 msgstr "Kategori"
 
@@ -39,8 +39,7 @@ msgid "Partially Confirmed"
 msgstr "Kısmen Onaylı"
 
 #. module: lunch
-#: view:lunch.cashmove:0
-#: view:lunch.order.line:0
+#: view:lunch.cashmove:0 view:lunch.order.line:0
 msgid "Group By..."
 msgstr "Grupla..."
 
@@ -50,8 +49,7 @@ msgid "Sunday"
 msgstr "Pazar"
 
 #. module: lunch
-#: field:lunch.order.line,supplier:0
-#: field:lunch.product,supplier:0
+#: field:lunch.order.line,supplier:0 field:lunch.product,supplier:0
 msgid "Supplier"
 msgstr "Tedarikçi"
 
@@ -86,14 +84,12 @@ msgid "Order lines Tree"
 msgstr "Sipariş kalemleri Ağacı"
 
 #. module: lunch
-#: field:lunch.alert,specific_day:0
-#: field:report.lunch.order.line,day:0
+#: field:lunch.alert,specific_day:0 field:report.lunch.order.line,day:0
 msgid "Day"
 msgstr "Gün"
 
 #. module: lunch
-#: view:lunch.order.line:0
-#: selection:lunch.order.line,state:0
+#: view:lunch.order.line:0 selection:lunch.order.line,state:0
 msgid "Received"
 msgstr "Alındı"
 
@@ -188,8 +184,7 @@ msgid "By Date"
 msgstr "Tarihe göre"
 
 #. module: lunch
-#: selection:lunch.order,state:0
-#: view:lunch.order.line:0
+#: selection:lunch.order,state:0 view:lunch.order.line:0
 #: selection:lunch.order.line,state:0
 msgid "Cancelled"
 msgstr "Vazgeçildi"
@@ -266,8 +261,7 @@ msgid "Wizard to order a meal"
 msgstr "Yemek siparişi sihirbazı"
 
 #. module: lunch
-#: selection:lunch.order,state:0
-#: selection:lunch.order.line,state:0
+#: selection:lunch.order,state:0 selection:lunch.order.line,state:0
 msgid "New"
 msgstr "Yeni"
 
@@ -308,8 +302,7 @@ msgid "Configuration"
 msgstr "Yapılandırma"
 
 #. module: lunch
-#: field:lunch.order,state:0
-#: field:lunch.order.line,state:0
+#: field:lunch.order,state:0 field:lunch.order.line,state:0
 msgid "Status"
 msgstr "Durum"
 
@@ -361,15 +354,12 @@ msgid ""
 "date.\n"
 "              </p>\n"
 "              <p>\n"
-"                - Click on the <img "
-"src=\"../../../web/static/src/img/icons/terp-call-start.png\"/> to announce "
-"that the order is ordered <br/>\n"
-"                - Click on the <img "
-"src=\"../../../web/static/src/img/icons/gtk-apply.png\"/> to announce that "
-"the order is received <br/>\n"
-"                - Click on the <img "
-"src=\"../../../web/static/src/img/icons/gtk-cancel.png\"/> red X to announce "
-"that the order isn't available\n"
+"                - Click on the <img src=\"../../../web/static/src/img/icons/"
+"terp-call-start.png\"/> to announce that the order is ordered <br/>\n"
+"                - Click on the <img src=\"../../../web/static/src/img/icons/"
+"gtk-apply.png\"/> to announce that the order is received <br/>\n"
+"                - Click on the <img src=\"../../../web/static/src/img/icons/"
+"gtk-cancel.png\"/> red X to announce that the order isn't available\n"
 "              </p>\n"
 "            "
 msgstr ""
@@ -424,8 +414,7 @@ msgstr ""
 "            "
 
 #. module: lunch
-#: view:lunch.alert:0
-#: field:lunch.alert,message:0
+#: view:lunch.alert:0 field:lunch.alert,message:0
 msgid "Message"
 msgstr "İleti"
 
@@ -435,9 +424,7 @@ msgid "Order Meals"
 msgstr "Yemekleri Sipariş et"
 
 #. module: lunch
-#: view:lunch.cancel:0
-#: view:lunch.order.order:0
-#: view:lunch.validation:0
+#: view:lunch.cancel:0 view:lunch.order.order:0 view:lunch.validation:0
 msgid "or"
 msgstr "ya da"
 
@@ -483,14 +470,12 @@ msgstr "Planlama Tarihi"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.action_lunch_alert
-#: model:ir.ui.menu,name:lunch.menu_lunch_alert
-#: field:lunch.order,alerts:0
+#: model:ir.ui.menu,name:lunch.menu_lunch_alert field:lunch.order,alerts:0
 msgid "Alerts"
 msgstr "Uyarılar"
 
 #. module: lunch
-#: field:lunch.order.line,note:0
-#: field:report.lunch.order.line,note:0
+#: field:lunch.order.line,note:0 field:report.lunch.order.line,note:0
 msgid "Note"
 msgstr "Not"
 
@@ -501,8 +486,7 @@ msgid "Add"
 msgstr "Ekle"
 
 #. module: lunch
-#: view:lunch.product:0
-#: view:lunch.product.category:0
+#: view:lunch.product:0 view:lunch.product.category:0
 msgid "Products Form"
 msgstr "Ürün Formu"
 
@@ -512,8 +496,7 @@ msgid "Cancel meals"
 msgstr "Yemekleri iptal et"
 
 #. module: lunch
-#: model:ir.model,name:lunch.model_lunch_cashmove
-#: view:lunch.cashmove:0
+#: model:ir.model,name:lunch.model_lunch_cashmove view:lunch.cashmove:0
 msgid "lunch cashmove"
 msgstr "Öğle yemeği nakit hareketi"
 
@@ -548,8 +531,7 @@ msgid "June"
 msgstr "Haziran"
 
 #. module: lunch
-#: field:lunch.cashmove,user_id:0
-#: field:lunch.order,user_id:0
+#: field:lunch.cashmove,user_id:0 field:lunch.order,user_id:0
 #: field:report.lunch.order.line,user_id:0
 msgid "User Name"
 msgstr "Kullanıcı Adı"
@@ -578,8 +560,7 @@ msgid "User"
 msgstr "Kullanıcı"
 
 #. module: lunch
-#: field:lunch.cashmove,date:0
-#: field:lunch.order,date:0
+#: field:lunch.cashmove,date:0 field:lunch.order,date:0
 #: field:lunch.order.line,date:0
 msgid "Date"
 msgstr "Tarih"
@@ -600,8 +581,7 @@ msgid "Orders Form"
 msgstr "Sipariş Formu"
 
 #. module: lunch
-#: view:lunch.alert:0
-#: view:lunch.order.line:0
+#: view:lunch.alert:0 view:lunch.order.line:0
 msgid "Search"
 msgstr "Ara"
 
@@ -617,15 +597,12 @@ msgid ""
 "                Here you can see today's orders grouped by suppliers.\n"
 "              </p>\n"
 "              <p>\n"
-"                - Click on the <img "
-"src=\"../../../web/static/src/img/icons/terp-call-start.png\"/> to announce "
-"that the order is ordered <br/>\n"
-"                - Click on the <img "
-"src=\"../../../web/static/src/img/icons/gtk-apply.png\"/> to announce that "
-"the order is received <br/>\n"
-"                - Click on the <img "
-"src=\"../../../web/static/src/img/icons/gtk-cancel.png\"/> to announce that "
-"the order isn't available\n"
+"                - Click on the <img src=\"../../../web/static/src/img/icons/"
+"terp-call-start.png\"/> to announce that the order is ordered <br/>\n"
+"                - Click on the <img src=\"../../../web/static/src/img/icons/"
+"gtk-apply.png\"/> to announce that the order is received <br/>\n"
+"                - Click on the <img src=\"../../../web/static/src/img/icons/"
+"gtk-cancel.png\"/> to announce that the order isn't available\n"
 "              </p>\n"
 "            "
 msgstr ""
@@ -636,8 +613,8 @@ msgstr ""
 "              <p>\n"
 "                - Siparişin verildiğini bildirmek için buna tıklayın <img "
 "src=\"../../../web/static/src/img/icons/terp-call-start.png\"/> <br/>\n"
-"                - Siparişin alındığını bildirmek için buna tıklayın <img "
-"src=\"../../../web/static/src/img/icons/gtk-apply.png\"/> <br/>\n"
+"                - Siparişin alındığını bildirmek için buna tıklayın <img src="
+"\"../../../web/static/src/img/icons/gtk-apply.png\"/> <br/>\n"
 "                - Siparişin mevcut olmadığını bildirmek için buna tıklayın "
 "<img src=\"../../../web/static/src/img/icons/gtk-cancel.png\"/>\n"
 "              </p>\n"
@@ -748,9 +725,7 @@ msgid "December"
 msgstr "Aralık"
 
 #. module: lunch
-#: view:lunch.cancel:0
-#: view:lunch.order.line:0
-#: view:lunch.order.order:0
+#: view:lunch.cancel:0 view:lunch.order.line:0 view:lunch.order.order:0
 #: view:lunch.validation:0
 msgid "Cancel"
 msgstr "İptal"
@@ -789,7 +764,7 @@ msgid ""
 "create new products, cashmoves and to confirm or cancel orders."
 msgstr ""
 "Yemek gereksinimlerinizi yönetmenize yardım eder, bir yöneticiyseniz yeni "
-"ürünler, nakit hareketleri oluşturabilir ve siparişleri onayalayabilir ya da "
+"ürünler, nakit hareketleri oluşturabilir ve siparişleri onaylayabilir ya da "
 "iptal edebilirsiniz."
 
 #. module: lunch
@@ -800,8 +775,8 @@ msgid ""
 "            </p>\n"
 "              <p>\n"
 "                A cashmove can either be an expense or a payment.<br/>\n"
-"                An expense is automatically created at the order "
-"receipt.<br/>\n"
+"                An expense is automatically created at the order receipt.<br/"
+">\n"
 "                A payment represents the employee reimbursement to the "
 "company.\n"
 "              </p>\n"
@@ -811,10 +786,10 @@ msgstr ""
 "                Yeni bir ödeme oluşturmak için tıklayın. \n"
 "            </p>\n"
 "              <p>\n"
-"                Bir nakit hareketi hem bir gider hem de bir ödeme "
-"olabilir.<br/>\n"
-"                Bir gider sipariş fişi ile birlikte kendiliğinden "
-"oluşur.<br/>\n"
+"                Bir nakit hareketi hem bir gider hem de bir ödeme olabilir."
+"<br/>\n"
+"                Bir gider sipariş fişi ile birlikte kendiliğinden oluşur.<br/"
+">\n"
 "                Bir ödeme, çalışanın şirkete ödemesini temsil eder.\n"
 "              </p>\n"
 "            "
@@ -846,14 +821,12 @@ msgid "By User"
 msgstr "Kullanıcıya Göre"
 
 #. module: lunch
-#: field:lunch.order.line,product_id:0
-#: field:lunch.product,name:0
+#: field:lunch.order.line,product_id:0 field:lunch.product,name:0
 msgid "Product"
 msgstr "Ürün"
 
 #. module: lunch
-#: field:lunch.cashmove,description:0
-#: report:lunch.order.line:0
+#: field:lunch.cashmove,description:0 report:lunch.order.line:0
 #: field:lunch.product,description:0
 msgid "Description"
 msgstr "Açıklama"
@@ -864,8 +837,7 @@ msgid "May"
 msgstr "Mayıs"
 
 #. module: lunch
-#: field:lunch.order.line,price:0
-#: field:lunch.product,price:0
+#: field:lunch.order.line,price:0 field:lunch.product,price:0
 msgid "Price"
 msgstr "Fiyat"
 
@@ -901,8 +873,7 @@ msgid "Employee Payments"
 msgstr "Çalışan Ödemeleri"
 
 #. module: lunch
-#: view:lunch.cashmove:0
-#: selection:lunch.cashmove,state:0
+#: view:lunch.cashmove:0 selection:lunch.cashmove,state:0
 msgid "Payment"
 msgstr "Ödeme"
 
@@ -937,18 +908,15 @@ msgid "Select your order"
 msgstr "Siparişini seç"
 
 #. module: lunch
-#: field:lunch.cashmove,order_id:0
-#: selection:lunch.cashmove,state:0
-#: report:lunch.order.line:0
-#: view:lunch.order.line:0
+#: field:lunch.cashmove,order_id:0 selection:lunch.cashmove,state:0
+#: report:lunch.order.line:0 view:lunch.order.line:0
 #: field:lunch.order.line,order_id:0
 msgid "Order"
 msgstr "Sipariş"
 
 #. module: lunch
 #: model:ir.actions.report.xml,name:lunch.report_lunch_order
-#: model:ir.model,name:lunch.model_lunch_order
-#: report:lunch.order.line:0
+#: model:ir.model,name:lunch.model_lunch_order report:lunch.order.line:0
 msgid "Lunch Order"
 msgstr "Öğle yemeği Siparişi"
 
@@ -994,9 +962,7 @@ msgid "Products Tree"
 msgstr "Ürün Ağacı"
 
 #. module: lunch
-#: view:lunch.cashmove:0
-#: view:lunch.order:0
-#: field:lunch.order,total:0
+#: view:lunch.cashmove:0 view:lunch.order:0 field:lunch.order,total:0
 #: view:lunch.order.line:0
 msgid "Total"
 msgstr "Toplam"

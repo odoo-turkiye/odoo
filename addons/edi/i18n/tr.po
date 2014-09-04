@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:37+0000\n"
-"PO-Revision-Date: 2012-12-21 23:00+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"PO-Revision-Date: 2014-09-03 10:39+0200\n"
+"Last-Translator: Huri Özbayram <info@7gates.co>\n"
+"Language-Team: Turkish <info@7gates.co>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-11-21 06:08+0000\n"
-"X-Generator: Launchpad (build 16831)\n"
+"X-Generator: Poedit 1.6.9\n"
+"Language: tr\n"
 
 #. module: edi
 #. openerp-web
@@ -29,7 +30,7 @@ msgstr "Neden:"
 #: code:addons/edi/static/src/js/edi.js:60
 #, python-format
 msgid "The document has been successfully imported!"
-msgstr "öküman başarılı bir şekilde içeri alındı!"
+msgstr "Döküman başarılı bir şekilde içeri alındı!"
 
 #. module: edi
 #. openerp-web
