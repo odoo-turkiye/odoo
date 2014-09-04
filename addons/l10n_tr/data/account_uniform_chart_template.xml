@@ -48,7 +48,7 @@
 					<record id="tr102" model="account.account.template">
 						<field name="name">Bankalar</field>
 						<field name="code">102</field>
-						<field name="type">other</field>
+						<field name="type">view</field>
 						<field name="user_type" ref="account.data_account_type_bank"/>
 						<field name="parent_id" ref="tr10"/>
 					</record>
