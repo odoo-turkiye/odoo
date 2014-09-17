@@ -202,16 +202,20 @@ class sale_order(osv.osv):
         return False
 
 
+class product_product(osv.osv):
+    _inherit = 'product.product'
+    
+    def need_procurement(self, cr, uid, ids, context=None):
+        #when sale/product is installed alone, there is no need to create procurements, but with sale_stock
+        #we must create a procurement for each product that is not a service.
+        for product in self.browse(cr, uid, ids, context=context):
+            if product.type != 'service':
+                return True
+        return super(product_product, self).need_procurement(cr, uid, ids, context=context)
+
 class sale_order_line(osv.osv):
     _inherit = 'sale.order.line'
 
-    def need_procurement(self, cr, uid, ids, context=None):
-        #when sale is installed alone, there is no need to create procurements, but with sale_stock
-        #we must create a procurement for each product that is not a service.
-        for line in self.browse(cr, uid, ids, context=context):
-            if line.product_id and line.product_id.type != 'service':
-                return True
-        return super(sale_order_line, self).need_procurement(cr, uid, ids, context=context)
 
     def _number_packages(self, cr, uid, ids, field_name, arg, context=None):
         res = {}
@@ -284,8 +288,9 @@ class sale_order_line(osv.osv):
         product_uom_obj = self.pool.get('product.uom')
         product_obj = self.pool.get('product.product')
         warning = {}
+        #UoM False due to hack which makes sure uom changes price, ... in product_id_change
         res = self.product_id_change(cr, uid, ids, pricelist, product, qty=qty,
-            uom=uom, qty_uos=qty_uos, uos=uos, name=name, partner_id=partner_id,
+            uom=False, qty_uos=qty_uos, uos=uos, name=name, partner_id=partner_id,
             lang=lang, update_tax=update_tax, date_order=date_order, packaging=packaging, fiscal_position=fiscal_position, flag=flag, context=context)
 
         if not product:
@@ -396,6 +401,17 @@ class stock_location_route(osv.osv):
 class stock_picking(osv.osv):
     _inherit = "stock.picking"
 
+    def _get_partner_to_invoice(self, cr, uid, picking, context=None):
+        """ Inherit the original function of the 'stock' module
+            We select the partner of the sales order as the partner of the customer invoice
+        """
+        saleorder_ids = self.pool['sale.order'].search(cr, uid, [('procurement_group_id' ,'=', picking.group_id.id)], context=context)
+        saleorders = self.pool['sale.order'].browse(cr, uid, saleorder_ids, context=context)
+        if saleorders and saleorders[0]:
+            saleorder = saleorders[0]
+            return saleorder.partner_invoice_id.id
+        return super(stock_picking, self)._get_partner_to_invoice(cr, uid, picking, context=context)
+    
     def _get_sale_id(self, cr, uid, ids, name, args, context=None):
         sale_obj = self.pool.get("sale.order")
         res = {}

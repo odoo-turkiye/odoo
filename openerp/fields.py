@@ -280,6 +280,7 @@ class Field(object):
     inverse = None              # inverse(recs) inverses field on recs
     search = None               # search(recs, operator, value) searches on self
     related = None              # sequence of field names, for related fields
+    related_sudo = True         # whether related fields should be read as admin
     company_dependent = False   # whether `self` is company-dependent (property field)
     default = None              # default value
 
@@ -427,13 +428,16 @@ class Field(object):
 
     def _compute_related(self, records):
         """ Compute the related field `self` on `records`. """
-        for record, sudo_record in zip(records, records.sudo()):
-            # bypass access rights check when traversing the related path
-            value = sudo_record if record.id else record
-            # traverse the intermediate fields, and keep at most one record
+        # when related_sudo, bypass access rights checks when reading values
+        others = records.sudo() if self.related_sudo else records
+        for record, other in zip(records, others):
+            if not record.id:
+                # draft record, do not switch to another environment
+                other = record
+            # traverse the intermediate fields; follow the first record at each step
             for name in self.related[:-1]:
-                value = value[name][:1]
-            record[self.name] = value[self.related[-1]]
+                other = other[name][:1]
+            record[self.name] = other[self.related[-1]]
 
     def _inverse_related(self, records):
         """ Inverse the related field `self` on `records`. """
@@ -765,9 +769,13 @@ class Field(object):
         with records.env.do_in_draft():
             try:
                 self._compute_value(records)
-            except MissingError:
-                # some record is missing, retry on existing records only
-                self._compute_value(records.exists())
+            except (AccessError, MissingError):
+                # some record is forbidden or missing, retry record by record
+                for record in records:
+                    try:
+                        self._compute_value(record)
+                    except Exception as exc:
+                        record._cache[self.name] = FailedValue(exc)
 
     def determine_value(self, record):
         """ Determine the value of `self` for `record`. """
@@ -1360,7 +1368,11 @@ class Many2one(_Relational):
             # evaluate name_get() as superuser, because the visibility of a
             # many2one field value (id and name) depends on the current record's
             # access rights, and not the value's access rights.
-            return value.sudo().name_get()[0]
+            try:
+                return value.sudo().name_get()[0]
+            except MissingError:
+                # Should not happen, unless the foreign key is missing.
+                return False
         else:
             return value.id
 
@@ -1386,13 +1398,32 @@ class Many2one(_Relational):
                 record[self.name] = record.env[self.comodel_name].new()
 
 
+class UnionUpdate(SpecialValue):
+    """ Placeholder for a value update; when this value is taken from the cache,
+        it returns ``record[field.name] | value`` and stores it in the cache.
+    """
+    def __init__(self, field, record, value):
+        self.args = (field, record, value)
+
+    def get(self):
+        field, record, value = self.args
+        # in order to read the current field's value, remove self from cache
+        del record._cache[field]
+        # read the current field's value, and update it in cache only
+        record._cache[field] = new_value = record[field.name] | value
+        return new_value
+
+
 class _RelationalMulti(_Relational):
     """ Abstract class for relational fields *2many. """
 
     def _update(self, records, value):
         """ Update the cached value of `self` for `records` with `value`. """
         for record in records:
-            record._cache[self] = record[self.name] | value
+            if self in record._cache:
+                record._cache[self] = record[self.name] | value
+            else:
+                record._cache[self] = UnionUpdate(self, record, value)
 
     def convert_to_cache(self, value, record, validate=True):
         if isinstance(value, BaseModel):
@@ -1411,6 +1442,7 @@ class _RelationalMulti(_Relational):
                         result += result.new(command[2])
                     elif command[0] == 1:
                         result.browse(command[1]).update(command[2])
+                        result += result.browse(command[1]) - result
                     elif command[0] == 2:
                         # note: the record will be deleted by write()
                         result -= result.browse(command[1])
@@ -1525,8 +1557,12 @@ class One2many(_RelationalMulti):
         if self.inverse_name:
             # link self to its inverse field and vice-versa
             invf = env[self.comodel_name]._fields[self.inverse_name]
-            self.inverse_fields.append(invf)
-            invf.inverse_fields.append(self)
+            # In some rare cases, a `One2many` field can link to `Int` field
+            # (res_model/res_id pattern). Only inverse the field if this is
+            # a `Many2one` field.
+            if isinstance(invf, Many2one):
+                self.inverse_fields.append(invf)
+                invf.inverse_fields.append(self)
 
     _description_relation_field = property(attrgetter('inverse_name'))
 
@@ -1637,6 +1673,6 @@ class Id(Field):
 
 # imported here to avoid dependency cycle issues
 from openerp import SUPERUSER_ID
-from .exceptions import Warning, MissingError
+from .exceptions import Warning, AccessError, MissingError
 from .models import BaseModel, MAGIC_COLUMNS
 from .osv import fields
