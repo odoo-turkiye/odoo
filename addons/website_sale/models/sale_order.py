@@ -193,7 +193,7 @@ class website(orm.Model):
                 values.update(sale_order.onchange_pricelist_id(pricelist_id, None)['value'])
                 sale_order.write(values)
                 for line in sale_order.order_line:
-                    sale_order._cart_update(product_id=line.product_id.id, add_qty=0)
+                    sale_order._cart_update(product_id=line.product_id.id, line_id=line.id, add_qty=0)
 
             # update browse record
             if (code and code != sale_order.pricelist_id.code) or sale_order.partner_id.id !=  partner.id:
@@ -205,9 +205,9 @@ class website(orm.Model):
         transaction_obj = self.pool.get('payment.transaction')
         tx_id = request.session.get('sale_transaction_id')
         if tx_id:
-            tx_ids = transaction_obj.search(cr, uid, [('id', '=', tx_id), ('state', 'not in', ['cancel'])], context=context)
+            tx_ids = transaction_obj.search(cr, SUPERUSER_ID, [('id', '=', tx_id), ('state', 'not in', ['cancel'])], context=context)
             if tx_ids:
-                return transaction_obj.browse(cr, uid, tx_ids[0], context=context)
+                return transaction_obj.browse(cr, SUPERUSER_ID, tx_ids[0], context=context)
             else:
                 request.session['sale_transaction_id'] = False
         return False
