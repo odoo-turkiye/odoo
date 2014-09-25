@@ -7,18 +7,18 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:37+0000\n"
-"PO-Revision-Date: 2013-08-04 16:34+0000\n"
-"Last-Translator: Ediz Duman <neps1192@gmail.com>\n"
+"PO-Revision-Date: 2014-09-03 12:20+0200\n"
+"Last-Translator: Huri Özbayram <info@7gates.co>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-11-21 06:14+0000\n"
-"X-Generator: Launchpad (build 16831)\n"
+"X-Generator: Poedit 1.6.9\n"
+"Language: tr\n"
 
 #. module: hr_timesheet_invoice
-#: view:report.timesheet.line:0
-#: view:report_timesheet.user:0
+#: view:report.timesheet.line:0 view:report_timesheet.user:0
 msgid "Timesheet by user"
 msgstr "Kullanıcıya göre ZamanÇizegesi"
 
@@ -39,7 +39,7 @@ msgid ""
 "deducted by this pricelist on the product."
 msgstr ""
 "Faturaya ürün personel formunda tanımlanan, fiyat olacaktır Ürünün bu fiyat "
-"listesine göre mahsup edlir."
+"listesine göre mahsup edilir."
 
 #. module: hr_timesheet_invoice
 #: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_analytic_profit.py:58
@@ -61,7 +61,7 @@ msgstr "Grupla İle"
 #. module: hr_timesheet_invoice
 #: view:hr.timesheet.invoice.create:0
 msgid "Force to use a specific product"
-msgstr "Belirli bir ürünü kullanmaya için zorla"
+msgstr "Belirli bir ürünü kullanmaya zorlar"
 
 #. module: hr_timesheet_invoice
 #: report:account.analytic.profit:0
@@ -119,8 +119,7 @@ msgid "Display time in the history of works"
 msgstr "Çalışmaların tarihinin zamanı gösterir"
 
 #. module: hr_timesheet_invoice
-#: view:report.timesheet.line:0
-#: field:report.timesheet.line,day:0
+#: view:report.timesheet.line:0 field:report.timesheet.line,day:0
 msgid "Day"
 msgstr "Gün"
 
@@ -130,8 +129,8 @@ msgid ""
 "Fill this field only if you want to force to use a specific product. Keep "
 "empty to use the real product that comes from the cost."
 msgstr ""
-"Eğer belirli bir ürün kullanmaya zorlamak istiyorsanız bu alanı "
-"doldurun.Maliyet gelen gerçek ürünü kullanmak için boş tutun."
+"Eğer belirli bir ürün kullanmaya zorlamak istiyorsanız bu alanı doldurun."
+"Maliyet gelen gerçek ürünü kullanmak için boş tutun."
 
 #. module: hr_timesheet_invoice
 #: model:ir.actions.act_window,help:hr_timesheet_invoice.action_hr_timesheet_invoice_factor_form
@@ -150,7 +149,7 @@ msgid ""
 "            "
 msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"                 Yeni bir fatura eklemek için tıklayaın.\n"
+"                 Yeni bir fatura eklemek için tıklayın.\n"
 "              </p><p>\n"
 "                OpenERP varsayılan fatura türleri oluşturman için izin "
 "verir. \n"
@@ -340,8 +339,7 @@ msgid "Timesheet by User"
 msgstr "Kullanıcı ZamanÇizelgesi"
 
 #. module: hr_timesheet_invoice
-#: view:account.analytic.line:0
-#: view:hr.analytic.timesheet:0
+#: view:account.analytic.line:0 view:hr.analytic.timesheet:0
 #: model:ir.actions.act_window,name:hr_timesheet_invoice.act_acc_analytic_acc_2_report_acc_analytic_line_to_invoice
 msgid "To Invoice"
 msgstr "Faturalama"
@@ -454,8 +452,7 @@ msgstr "Fatura sözleşme"
 
 #. module: hr_timesheet_invoice
 #: field:report.account.analytic.line.to.invoice,month:0
-#: view:report.timesheet.line:0
-#: field:report.timesheet.line,month:0
+#: view:report.timesheet.line:0 field:report.timesheet.line,month:0
 #: field:report_timesheet.account,month:0
 #: field:report_timesheet.account.date,month:0
 #: field:report_timesheet.user,month:0
@@ -473,8 +470,7 @@ msgid "Non Assigned timesheets to users"
 msgstr "ZamanÇizelgelerine Kullanıcı atanmamış"
 
 #. module: hr_timesheet_invoice
-#: view:account.analytic.line:0
-#: view:hr.analytic.timesheet:0
+#: view:account.analytic.line:0 view:hr.analytic.timesheet:0
 #: field:report.timesheet.line,invoice_id:0
 msgid "Invoiced"
 msgstr "Faturalandı"
@@ -490,8 +486,7 @@ msgid "Invoice rate by user"
 msgstr "Kullanıcı tarafından Fatura oranı"
 
 #. module: hr_timesheet_invoice
-#: view:report_timesheet.account:0
-#: view:report_timesheet.account.date:0
+#: view:report_timesheet.account:0 view:report_timesheet.account.date:0
 msgid "Timesheet by account"
 msgstr "Hesap tarafında ZamanÇizelgesi"
 
@@ -585,8 +580,7 @@ msgstr "Eff."
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.analytic.profit,employee_ids:0
-#: view:report.timesheet.line:0
-#: field:report.timesheet.line,user_id:0
+#: view:report.timesheet.line:0 field:report.timesheet.line,user_id:0
 #: field:report_timesheet.account,user_id:0
 #: field:report_timesheet.account.date,user_id:0
 #: field:report_timesheet.invoice,user_id:0
@@ -639,8 +633,7 @@ msgid "Balance"
 msgstr "Bakiye"
 
 #. module: hr_timesheet_invoice
-#: field:report.analytic.account.close,quantity:0
-#: view:report.timesheet.line:0
+#: field:report.analytic.account.close,quantity:0 view:report.timesheet.line:0
 msgid "Quantity"
 msgstr "Miktar"
 
@@ -701,8 +694,7 @@ msgid "Invoice"
 msgstr "Fatura"
 
 #. module: hr_timesheet_invoice
-#: view:hr.timesheet.analytic.profit:0
-#: view:hr.timesheet.invoice.create:0
+#: view:hr.timesheet.analytic.profit:0 view:hr.timesheet.invoice.create:0
 #: view:hr.timesheet.invoice.create.final:0
 msgid "Cancel"
 msgstr "iptal"
@@ -736,8 +728,7 @@ msgid "Do you want to show details of work in invoice?"
 msgstr "Faturada iş ayrıntıları göstermek istiyor musunuz?"
 
 #. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create:0
-#: view:hr.timesheet.invoice.create.final:0
+#: view:hr.timesheet.invoice.create:0 view:hr.timesheet.invoice.create.final:0
 #: model:ir.actions.act_window,name:hr_timesheet_invoice.action_hr_timesheet_invoice_create
 #: model:ir.actions.act_window,name:hr_timesheet_invoice.action_hr_timesheet_invoice_create_final
 msgid "Create Invoice"
@@ -766,8 +757,7 @@ msgstr "ZamanÇizelgeleri faturala"
 #. module: hr_timesheet_invoice
 #: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:186
 #, python-format
-msgid ""
-"Contract incomplete. Please fill in the Customer and Pricelist fields."
+msgid "Contract incomplete. Please fill in the Customer and Pricelist fields."
 msgstr "Eksik Sözleşme.Müşteri ve Fiyat Listesi alanları doldurun."
 
 #. module: hr_timesheet_invoice
@@ -778,8 +768,7 @@ msgstr "Hesap Günlük ZamanÇizelgesi"
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.invoice.create.final,product:0
 #: field:report.account.analytic.line.to.invoice,product_id:0
-#: view:report.timesheet.line:0
-#: field:report.timesheet.line,product_id:0
+#: view:report.timesheet.line:0 field:report.timesheet.line,product_id:0
 msgid "Product"
 msgstr "Ürünler"
 
@@ -934,8 +923,7 @@ msgid "80%"
 msgstr "80%"
 
 #. module: hr_timesheet_invoice
-#: view:hr.timesheet.analytic.profit:0
-#: view:hr.timesheet.invoice.create:0
+#: view:hr.timesheet.analytic.profit:0 view:hr.timesheet.invoice.create:0
 #: view:hr.timesheet.invoice.create.final:0
 msgid "or"
 msgstr "veya"
@@ -946,19 +934,16 @@ msgid "Manager"
 msgstr "Yönetici"
 
 #. module: hr_timesheet_invoice
-#: report:account.analytic.profit:0
-#: field:hr.timesheet.invoice.create,price:0
+#: report:account.analytic.profit:0 field:hr.timesheet.invoice.create,price:0
 #: field:hr.timesheet.invoice.create.final,price:0
-#: view:report.timesheet.line:0
-#: field:report.timesheet.line,cost:0
+#: view:report.timesheet.line:0 field:report.timesheet.line,cost:0
 #: field:report_timesheet.user,cost:0
 msgid "Cost"
 msgstr "Maliyet"
 
 #. module: hr_timesheet_invoice
 #: field:report.account.analytic.line.to.invoice,name:0
-#: view:report.timesheet.line:0
-#: field:report.timesheet.line,name:0
+#: view:report.timesheet.line:0 field:report.timesheet.line,name:0
 #: field:report_timesheet.account,name:0
 #: field:report_timesheet.account.date,name:0
 #: field:report_timesheet.user,name:0

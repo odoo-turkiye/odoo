@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:37+0000\n"
-"PO-Revision-Date: 2013-10-12 09:42+0000\n"
-"Last-Translator: Ayhan KIZILTAN <Unknown>\n"
+"PO-Revision-Date: 2014-09-03 10:58+0200\n"
+"Last-Translator: Huri Özbayram <info@7gates.co>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-11-21 06:09+0000\n"
-"X-Generator: Launchpad (build 16831)\n"
+"X-Generator: Poedit 1.6.9\n"
+"Language: tr\n"
 
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
@@ -38,8 +39,7 @@ msgid "Unique number written on the vehicle motor (VIN/SN number)"
 msgstr "Motor Şase Numarası"
 
 #. module: fleet
-#: selection:fleet.service.type,category:0
-#: view:fleet.vehicle.log.contract:0
+#: selection:fleet.service.type,category:0 view:fleet.vehicle.log.contract:0
 #: view:fleet.vehicle.log.services:0
 msgid "Service"
 msgstr "Servis"
@@ -82,8 +82,7 @@ msgid "Resurface Rotors"
 msgstr "Disk Yüzey Tornalama"
 
 #. module: fleet
-#: view:fleet.vehicle.cost:0
-#: view:fleet.vehicle.model:0
+#: view:fleet.vehicle.cost:0 view:fleet.vehicle.model:0
 msgid "Group By..."
 msgstr "Grupla İle"
 
@@ -206,21 +205,18 @@ msgid "Head Gasket(s) Replacement"
 msgstr "Kapak Conta Değiştirme"
 
 #. module: fleet
-#: view:fleet.vehicle:0
-#: selection:fleet.vehicle.cost,cost_type:0
+#: view:fleet.vehicle:0 selection:fleet.vehicle.cost,cost_type:0
 msgid "Services"
 msgstr "Servisler"
 
 #. module: fleet
-#: help:fleet.vehicle,odometer:0
-#: help:fleet.vehicle.cost,odometer:0
+#: help:fleet.vehicle,odometer:0 help:fleet.vehicle.cost,odometer:0
 #: help:fleet.vehicle.cost,odometer_id:0
 msgid "Odometer measure of the vehicle at the moment of this log"
 msgstr "Araçın bu kayıt anındaki odometre ölçümü"
 
 #. module: fleet
-#: view:fleet.vehicle.log.contract:0
-#: field:fleet.vehicle.log.contract,notes:0
+#: view:fleet.vehicle.log.contract:0 field:fleet.vehicle.log.contract,notes:0
 msgid "Terms and Conditions"
 msgstr "Şartlar ve Koşullar"
 
@@ -282,10 +278,8 @@ msgstr ""
 "tarihinden bir yıl sonra)"
 
 #. module: fleet
-#: view:fleet.vehicle.log.fuel:0
-#: field:fleet.vehicle.log.fuel,notes:0
-#: view:fleet.vehicle.log.services:0
-#: field:fleet.vehicle.log.services,notes:0
+#: view:fleet.vehicle.log.fuel:0 field:fleet.vehicle.log.fuel,notes:0
+#: view:fleet.vehicle.log.services:0 field:fleet.vehicle.log.services,notes:0
 msgid "Notes"
 msgstr "Notlar"
 
@@ -394,8 +388,7 @@ msgid "Transmission Used by the vehicle"
 msgstr "Bu araç tarafından Kullanılan Aktarma"
 
 #. module: fleet
-#: code:addons/fleet/fleet.py:740
-#: view:fleet.vehicle.log.contract:0
+#: code:addons/fleet/fleet.py:740 view:fleet.vehicle.log.contract:0
 #: model:ir.actions.act_window,name:fleet.act_renew_contract
 #, python-format
 msgid "Renew Contract"
@@ -492,11 +485,11 @@ msgstr "Araç Yakıt Kayıtları"
 #. module: fleet
 #: view:fleet.vehicle.model.brand:0
 msgid ""
-"$('.oe_picture').load(function() { if($(this).width() > $(this).height()) { "
-"$(this).addClass('oe_employee_picture_wide') } });"
+"$('.oe_picture').load(function() { if($(this).width() > $(this).height()) "
+"{ $(this).addClass('oe_employee_picture_wide') } });"
 msgstr ""
-"$('.oe_picture').load(function() { if($(this).width() > $(this).height()) { "
-"$(this).addClass('oe_employee_picture_wide') } });"
+"$('.oe_picture').load(function() { if($(this).width() > $(this).height()) "
+"{ $(this).addClass('oe_employee_picture_wide') } });"
 
 #. module: fleet
 #: view:board.board:0
@@ -604,7 +597,7 @@ msgstr "Kalorifer Değişimi"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_14
 msgid "Car Wash"
-msgstr "Arac Yıkama"
+msgstr "Araç Yıkama"
 
 #. module: fleet
 #: help:fleet.vehicle,driver_id:0
@@ -717,17 +710,14 @@ msgstr ""
 "            "
 
 #. module: fleet
-#: view:fleet.vehicle:0
-#: field:fleet.vehicle,log_fuel:0
+#: view:fleet.vehicle:0 field:fleet.vehicle,log_fuel:0
 #: view:fleet.vehicle.log.fuel:0
 msgid "Fuel Logs"
 msgstr "Yakıt Kayıtlar"
 
 #. module: fleet
-#: code:addons/fleet/fleet.py:409
-#: code:addons/fleet/fleet.py:413
-#: code:addons/fleet/fleet.py:417
-#: code:addons/fleet/fleet.py:420
+#: code:addons/fleet/fleet.py:409 code:addons/fleet/fleet.py:413
+#: code:addons/fleet/fleet.py:417 code:addons/fleet/fleet.py:420
 #, python-format
 msgid "None"
 msgstr "Hiçbiri"
@@ -812,8 +802,7 @@ msgid "Date when the cost has been executed"
 msgstr "Maliyetin yapıldığı tarih"
 
 #. module: fleet
-#: view:fleet.vehicle.cost:0
-#: view:fleet.vehicle.model:0
+#: view:fleet.vehicle.cost:0 view:fleet.vehicle.model:0
 msgid "Vehicles costs"
 msgstr "Araç maliyetler"
 
@@ -857,14 +846,12 @@ msgid "Other Maintenance"
 msgstr "Diğer Bakım"
 
 #. module: fleet
-#: view:fleet.vehicle.cost:0
-#: field:fleet.vehicle.cost,parent_id:0
+#: view:fleet.vehicle.cost:0 field:fleet.vehicle.cost,parent_id:0
 msgid "Parent"
 msgstr "Üst"
 
 #. module: fleet
-#: field:fleet.vehicle,state_id:0
-#: view:fleet.vehicle.state:0
+#: field:fleet.vehicle,state_id:0 view:fleet.vehicle.state:0
 msgid "State"
 msgstr "Durumu"
 
@@ -965,10 +952,8 @@ msgid "Horsepower"
 msgstr "BeygirGücü"
 
 #. module: fleet
-#: field:fleet.vehicle,image:0
-#: field:fleet.vehicle,image_medium:0
-#: field:fleet.vehicle,image_small:0
-#: field:fleet.vehicle.model,image:0
+#: field:fleet.vehicle,image:0 field:fleet.vehicle,image_medium:0
+#: field:fleet.vehicle,image_small:0 field:fleet.vehicle.model,image:0
 #: field:fleet.vehicle.model,image_medium:0
 #: field:fleet.vehicle.model,image_small:0
 #: field:fleet.vehicle.model.brand,image:0
@@ -981,8 +966,7 @@ msgid "Horsepower Taxation"
 msgstr "BeygirGücü Vergilendirme"
 
 #. module: fleet
-#: field:fleet.vehicle,log_services:0
-#: view:fleet.vehicle.log.services:0
+#: field:fleet.vehicle,log_services:0 view:fleet.vehicle.log.services:0
 msgid "Services Logs"
 msgstr "Servis Günlükleri"
 
@@ -1026,8 +1010,7 @@ msgid "All vehicles"
 msgstr "Tüm araçlar"
 
 #. module: fleet
-#: view:fleet.vehicle.log.fuel:0
-#: view:fleet.vehicle.log.services:0
+#: view:fleet.vehicle.log.fuel:0 view:fleet.vehicle.log.services:0
 msgid "Additional Details"
 msgstr "Ek Detaylar"
 
@@ -1123,8 +1106,7 @@ msgid "Tags"
 msgstr "Etiket"
 
 #. module: fleet
-#: view:fleet.vehicle:0
-#: field:fleet.vehicle,log_contracts:0
+#: view:fleet.vehicle:0 field:fleet.vehicle,log_contracts:0
 msgid "Contracts"
 msgstr "Sözleşmeler"
 
@@ -1134,8 +1116,7 @@ msgid "Brake Pad(s) Replacement"
 msgstr "Fren Balatası Değişimi"
 
 #. module: fleet
-#: view:fleet.vehicle.log.fuel:0
-#: view:fleet.vehicle.log.services:0
+#: view:fleet.vehicle.log.fuel:0 view:fleet.vehicle.log.services:0
 msgid "Odometer Details"
 msgstr "Kilometre Sayacı Ayrıntıları"
 
@@ -1362,8 +1343,7 @@ msgid "Battery Replacement"
 msgstr "Akü Değiştirme"
 
 #. module: fleet
-#: view:fleet.vehicle.cost:0
-#: field:fleet.vehicle.cost,date:0
+#: view:fleet.vehicle.cost:0 field:fleet.vehicle.cost,date:0
 #: field:fleet.vehicle.odometer,date:0
 msgid "Date"
 msgstr "Tarih"
@@ -1463,8 +1443,7 @@ msgid "Tax roll"
 msgstr "Vergi kayıtları"
 
 #. module: fleet
-#: view:fleet.vehicle.model:0
-#: field:fleet.vehicle.model,vendors:0
+#: view:fleet.vehicle.model:0 field:fleet.vehicle.model,vendors:0
 msgid "Vendors"
 msgstr "Satıcılar"
 
@@ -1490,8 +1469,7 @@ msgid "Weekly"
 msgstr "Haftalık"
 
 #. module: fleet
-#: view:fleet.vehicle:0
-#: view:fleet.vehicle.odometer:0
+#: view:fleet.vehicle:0 view:fleet.vehicle.odometer:0
 msgid "Odometer Logs"
 msgstr "Kilometre Sayacı Kayıtları"
 
@@ -1557,8 +1535,7 @@ msgid "Indicative Cost"
 msgstr "Maliyet Göstergesi"
 
 #. module: fleet
-#: field:fleet.vehicle.model,brand_id:0
-#: view:fleet.vehicle.model.brand:0
+#: field:fleet.vehicle.model,brand_id:0 view:fleet.vehicle.model.brand:0
 msgid "Model Brand"
 msgstr "Model Marka"
 
@@ -1738,29 +1715,25 @@ msgid "Vehicle %s has been added to the fleet!"
 msgstr "%s Araçı Filoya eklenmiştir!"
 
 #. module: fleet
-#: view:fleet.vehicle.log.contract:0
-#: view:fleet.vehicle.log.fuel:0
+#: view:fleet.vehicle.log.contract:0 view:fleet.vehicle.log.fuel:0
 #: view:fleet.vehicle.log.services:0
 msgid "Price"
 msgstr "Fiyat"
 
 #. module: fleet
-#: field:fleet.vehicle.cost,odometer:0
-#: field:fleet.vehicle.odometer,value:0
+#: field:fleet.vehicle.cost,odometer:0 field:fleet.vehicle.odometer,value:0
 msgid "Odometer Value"
 msgstr "Kilometre Sayaç Değeri"
 
 #. module: fleet
-#: view:fleet.vehicle:0
-#: view:fleet.vehicle.cost:0
+#: view:fleet.vehicle:0 view:fleet.vehicle.cost:0
 #: field:fleet.vehicle.cost,vehicle_id:0
 #: field:fleet.vehicle.odometer,vehicle_id:0
 msgid "Vehicle"
 msgstr "Araç"
 
 #. module: fleet
-#: field:fleet.vehicle.cost,cost_ids:0
-#: view:fleet.vehicle.log.contract:0
+#: field:fleet.vehicle.cost,cost_ids:0 view:fleet.vehicle.log.contract:0
 #: view:fleet.vehicle.log.services:0
 msgid "Included Services"
 msgstr "Servise Dahil Olanlar"
@@ -1790,7 +1763,7 @@ msgstr "Kalorifer Fan Motoru Değiştirme"
 #: model:ir.actions.act_window,name:fleet.fleet_vehicle_odometer_act
 #: model:ir.ui.menu,name:fleet.fleet_vehicle_odometer_menu
 msgid "Vehicles Odometer"
-msgstr "Araç Kilomtre Sayacı"
+msgstr "Araç Kilometre Sayacı"
 
 #. module: fleet
 #: help:fleet.vehicle.log.contract,notes:0
@@ -1819,14 +1792,10 @@ msgid "Contract Reference"
 msgstr "Sözleşme Referansı"
 
 #. module: fleet
-#: field:fleet.service.type,name:0
-#: field:fleet.vehicle,name:0
-#: field:fleet.vehicle.cost,name:0
-#: field:fleet.vehicle.log.contract,name:0
-#: field:fleet.vehicle.model,name:0
-#: field:fleet.vehicle.odometer,name:0
-#: field:fleet.vehicle.state,name:0
-#: field:fleet.vehicle.tag,name:0
+#: field:fleet.service.type,name:0 field:fleet.vehicle,name:0
+#: field:fleet.vehicle.cost,name:0 field:fleet.vehicle.log.contract,name:0
+#: field:fleet.vehicle.model,name:0 field:fleet.vehicle.odometer,name:0
+#: field:fleet.vehicle.state,name:0 field:fleet.vehicle.tag,name:0
 msgid "Name"
 msgstr "Adı"
 
@@ -1889,8 +1858,7 @@ msgid "Contracts Costs by Month"
 msgstr "Aylık Sözleşme Maliyetleri"
 
 #. module: fleet
-#: field:fleet.vehicle,model_id:0
-#: view:fleet.vehicle.model:0
+#: field:fleet.vehicle,model_id:0 view:fleet.vehicle.model:0
 msgid "Model"
 msgstr "Model"
 
@@ -1991,8 +1959,7 @@ msgid "Starter Replacement"
 msgstr "Marş Değişimi"
 
 #. module: fleet
-#: view:fleet.vehicle.cost:0
-#: field:fleet.vehicle.cost,year:0
+#: view:fleet.vehicle.cost:0 field:fleet.vehicle.cost,year:0
 msgid "Year"
 msgstr "Yıl"
 
@@ -2018,11 +1985,10 @@ msgstr "Toplam"
 
 #. module: fleet
 #: help:fleet.service.type,category:0
-msgid ""
-"Choose wheter the service refer to contracts, vehicle services or both"
+msgid "Choose wheter the service refer to contracts, vehicle services or both"
 msgstr ""
 "Hizmetin sözleşmelerle mi, araç hizmetleriyle mi ya da her ikisiyle de mi "
-"ilgili olduunu seçin"
+"ilgili olduğunu seçin"
 
 #. module: fleet
 #: help:fleet.vehicle.cost,cost_type:0

@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:36+0000\n"
-"PO-Revision-Date: 2014-05-12 09:31+0000\n"
-"Last-Translator: Ediz Duman <neps1192@gmail.com>\n"
+"PO-Revision-Date: 2014-09-03 12:52+0200\n"
+"Last-Translator: Huri Özbayram <info@7gates.co>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-05-13 06:28+0000\n"
-"X-Generator: Launchpad (build 17002)\n"
+"X-Generator: Poedit 1.6.9\n"
+"Language: tr\n"
 
 #. module: mrp
 #: help:mrp.config.settings,module_mrp_repair:0
@@ -107,8 +108,7 @@ msgid "For stockable products and consumables"
 msgstr "Stoklanabilir ürünler ve sarf malzemeleri için"
 
 #. module: mrp
-#: help:mrp.bom,message_unread:0
-#: help:mrp.production,message_unread:0
+#: help:mrp.bom,message_unread:0 help:mrp.production,message_unread:0
 #: help:mrp.production.workcenter.line,message_unread:0
 msgid "If checked new messages require your attention."
 msgstr "Eğer seçilirse yeni mesajlar dikkat gerektirir."
@@ -128,9 +128,7 @@ msgid "False"
 msgstr "Yanlış"
 
 #. module: mrp
-#: view:mrp.bom:0
-#: field:mrp.bom,code:0
-#: field:mrp.production,name:0
+#: view:mrp.bom:0 field:mrp.bom,code:0 field:mrp.production,name:0
 msgid "Reference"
 msgstr "Kaynak"
 
@@ -145,8 +143,7 @@ msgid "Manufacturing Orders which are currently in production."
 msgstr "Şu an üretimde olan Üretim Emirleri"
 
 #. module: mrp
-#: help:mrp.bom,message_summary:0
-#: help:mrp.production,message_summary:0
+#: help:mrp.bom,message_summary:0 help:mrp.production,message_summary:0
 #: help:mrp.production.workcenter.line,message_summary:0
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
@@ -266,16 +263,15 @@ msgstr ""
 "                Bir rota oluşturmak için tıklayın.\n"
 "              </p><p>\n"
 "                Rotalar, bir ürün üretmek için iş merkezlerinizde \n"
-"                izlenebilecek üretim işlemleri oluşturmanızı ve yönetmenizi "
-"\n"
+"                izlenebilecek üretim işlemleri oluşturmanızı ve "
+"yönetmenizi \n"
 "                sağlar. Gerekli ham malzemelerin tanımlanacağı ürün \n"
 "                ağaçlarına eklidir.\n"
 "              </p>\n"
 "            "
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:mrp.production,move_created_ids2:0
+#: view:mrp.production:0 field:mrp.production,move_created_ids2:0
 msgid "Produced Products"
 msgstr "Üretilmiş Ürünler"
 
@@ -335,8 +331,7 @@ msgid "Sets / Phantom"
 msgstr "Ayarlar / Görüntü"
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:mrp.production,state:0
+#: view:mrp.production:0 field:mrp.production,state:0
 msgid "Status"
 msgstr "Durumu"
 
@@ -405,11 +400,8 @@ msgid "Reference must be unique per Company!"
 msgstr "Referans her firma için eşsiz olmalı!"
 
 #. module: mrp
-#: code:addons/mrp/report/price.py:139
-#: report:bom.structure:0
-#: view:mrp.bom:0
-#: field:mrp.product_price,number:0
-#: view:mrp.production:0
+#: code:addons/mrp/report/price.py:139 report:bom.structure:0 view:mrp.bom:0
+#: field:mrp.product_price,number:0 view:mrp.production:0
 #: report:mrp.production.order:0
 #, python-format
 msgid "Quantity"
@@ -453,8 +445,7 @@ msgstr ""
 "kullanılır, örneğin bir eğitim oturumu sırasında kullanılır."
 
 #. module: mrp
-#: field:mrp.bom,product_qty:0
-#: field:mrp.production,product_qty:0
+#: field:mrp.bom,product_qty:0 field:mrp.production,product_qty:0
 #: field:mrp.production.product.line,product_qty:0
 msgid "Product Quantity"
 msgstr "Ürün Miktarı"
@@ -536,8 +527,7 @@ msgstr ""
 "            "
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:mrp.production,date_planned:0
+#: view:mrp.production:0 field:mrp.production,date_planned:0
 #: report:mrp.production.order:0
 msgid "Scheduled Date"
 msgstr "Planlanan Tarih"
@@ -549,8 +539,7 @@ msgid "Manufacturing Order <em>%s</em> created."
 msgstr "Üretim Emri <em>%s</em> oluşturuldu."
 
 #. module: mrp
-#: view:mrp.bom:0
-#: report:mrp.production.order:0
+#: view:mrp.bom:0 report:mrp.production.order:0
 msgid "Bill Of Material"
 msgstr "Ürün Ağacı"
 
@@ -602,10 +591,8 @@ msgid "Request for Quotation."
 msgstr "Teklif İsteği"
 
 #. module: mrp
-#: view:change.production.qty:0
-#: view:mrp.config.settings:0
-#: view:mrp.product.produce:0
-#: view:mrp.product_price:0
+#: view:change.production.qty:0 view:mrp.config.settings:0
+#: view:mrp.product.produce:0 view:mrp.product_price:0
 #: view:mrp.workcenter.load:0
 msgid "or"
 msgstr "veya"
@@ -615,12 +602,10 @@ msgstr "veya"
 msgid ""
 "The Bill of Material is linked to a routing, i.e. the succession of work "
 "centers."
-msgstr ""
-"Ürün Ağacı bir rotaya bağlıdır, örn. birbirini izleyen iş merkezleri."
+msgstr "Ürün Ağacı bir rotaya bağlıdır, örn. birbirini izleyen iş merkezleri."
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:mrp.production,move_created_ids:0
+#: view:mrp.production:0 field:mrp.production,move_created_ids:0
 msgid "Products to Produce"
 msgstr "Üretilecek Ürünler"
 
@@ -630,8 +615,7 @@ msgid "Apply"
 msgstr "Uygula"
 
 #. module: mrp
-#: view:mrp.routing:0
-#: field:mrp.routing,location_id:0
+#: view:mrp.routing:0 field:mrp.routing,location_id:0
 msgid "Production Location"
 msgstr "Üretim Konumu"
 
@@ -723,8 +707,7 @@ msgid "Material Routing"
 msgstr "Malzeme Rotası"
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:mrp.production,move_lines2:0
+#: view:mrp.production:0 field:mrp.production,move_lines2:0
 #: report:mrp.production.order:0
 msgid "Consumed Products"
 msgstr "Sarfedilen Ürünler"
@@ -754,8 +737,7 @@ msgid "Stock Move"
 msgstr "Stok Hareketi"
 
 #. module: mrp
-#: model:ir.ui.menu,name:mrp.menu_mrp_planning
-#: view:mrp.config.settings:0
+#: model:ir.ui.menu,name:mrp.menu_mrp_planning view:mrp.config.settings:0
 msgid "Planning"
 msgstr "Planlama"
 
@@ -838,14 +820,12 @@ msgstr ""
 "                Bu, product_manufacturer modülünü kurar."
 
 #. module: mrp
-#: view:mrp.product_price:0
-#: view:mrp.workcenter.load:0
+#: view:mrp.product_price:0 view:mrp.workcenter.load:0
 msgid "Print"
 msgstr "Yazdır"
 
 #. module: mrp
-#: view:mrp.bom:0
-#: view:mrp.workcenter:0
+#: view:mrp.bom:0 view:mrp.workcenter:0
 msgid "Type"
 msgstr "Türü"
 
@@ -889,8 +869,7 @@ msgstr "Ay başına"
 msgid ""
 "Unit of Measure (Unit of Measure) is the unit of measurement for the "
 "inventory control"
-msgstr ""
-"Ölçü Birimi (Ölçü Birimi) stok kontrolünde kullanılacak ölçü birimidir"
+msgstr "Ölçü Birimi (Ölçü Birimi) stok kontrolünde kullanılacak ölçü birimidir"
 
 #. module: mrp
 #: report:bom.structure:0
@@ -900,12 +879,10 @@ msgstr "Ürün Adı"
 #. module: mrp
 #: help:mrp.bom,product_efficiency:0
 msgid "A factor of 0.9 means a loss of 10% within the production process."
-msgstr ""
-"0,9 luk bir faktör üretim işleminde %10'luk bir kayıp anlamına gelir."
+msgstr "0,9 luk bir faktör üretim işleminde %10'luk bir kayıp anlamına gelir."
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:737
-#: code:addons/mrp/mrp.py:765
+#: code:addons/mrp/mrp.py:737 code:addons/mrp/mrp.py:765
 #, python-format
 msgid "Warning!"
 msgstr "Uyarı!"
@@ -933,8 +910,8 @@ msgid ""
 "Fill this only if you want automatic analytic accounting entries on "
 "production orders."
 msgstr ""
-"Bunu yalnızca üretim emirlerinde otomatik analitik muhasebe girişleri "
-"isterseniz doldurun."
+"Bunu yalnızca üretim emirlerindeki otomatik analitik muhasebe girdilerini "
+"istiyorsanız doldurun."
 
 #. module: mrp
 #: view:mrp.production:0
@@ -983,10 +960,8 @@ msgstr ""
 "sahiptir."
 
 #. module: mrp
-#: model:ir.model,name:mrp.model_mrp_production
-#: view:mrp.config.settings:0
-#: view:mrp.production:0
-#: field:mrp.production.workcenter.line,production_id:0
+#: model:ir.model,name:mrp.model_mrp_production view:mrp.config.settings:0
+#: view:mrp.production:0 field:mrp.production.workcenter.line,production_id:0
 #: field:procurement.order,production_id:0
 msgid "Manufacturing Order"
 msgstr "Üretim Emri"
@@ -1008,8 +983,7 @@ msgstr ""
 "kurmalısınız !"
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:mrp.production,cycle_total:0
+#: view:mrp.production:0 field:mrp.production,cycle_total:0
 msgid "Total Cycles"
 msgstr "Toplam Çevrimler"
 
@@ -1026,8 +1000,7 @@ msgid "Is a Follower"
 msgstr "Bir İzleyicidir"
 
 #. module: mrp
-#: view:mrp.bom:0
-#: view:mrp.production:0
+#: view:mrp.bom:0 view:mrp.production:0
 msgid "Date"
 msgstr "Tarih"
 
@@ -1068,8 +1041,7 @@ msgstr "BoM Türü"
 #. module: mrp
 #: code:addons/mrp/procurement.py:57
 #, python-format
-msgid ""
-"Procurement '%s' has an exception: 'No BoM defined for this product !'"
+msgid "Procurement '%s' has an exception: 'No BoM defined for this product !'"
 msgstr ""
 "'%s' satınalmanın istisnası mevcuttur: 'Bu ürün için Ürün Ağacı "
 "tanımlanmamıştır !'"
@@ -1105,8 +1077,7 @@ msgid "Minimum Stock"
 msgstr "En Az Stok"
 
 #. module: mrp
-#: code:addons/mrp/report/price.py:160
-#: code:addons/mrp/report/price.py:211
+#: code:addons/mrp/report/price.py:160 code:addons/mrp/report/price.py:211
 #, python-format
 msgid "Total Cost of %s %s"
 msgstr "%s %s in Toplam Maliyeti"
@@ -1150,16 +1121,13 @@ msgid "Manufacturing Plan."
 msgstr "Üretim Planı."
 
 #. module: mrp
-#: view:mrp.routing:0
-#: view:mrp.workcenter:0
+#: view:mrp.routing:0 view:mrp.workcenter:0
 msgid "Inactive"
 msgstr "Pasif"
 
 #. module: mrp
-#: view:change.production.qty:0
-#: view:mrp.config.settings:0
-#: view:mrp.product.produce:0
-#: view:mrp.product_price:0
+#: view:change.production.qty:0 view:mrp.config.settings:0
+#: view:mrp.product.produce:0 view:mrp.product_price:0
 #: view:mrp.workcenter.load:0
 msgid "Cancel"
 msgstr "İptal"
@@ -1192,8 +1160,7 @@ msgstr "BOM Adı"
 #: model:ir.actions.act_window,name:mrp.act_product_manufacturing_open
 #: model:ir.actions.act_window,name:mrp.mrp_production_action
 #: model:ir.actions.act_window,name:mrp.mrp_production_action_planning
-#: model:ir.ui.menu,name:mrp.menu_mrp_production_action
-#: view:mrp.production:0
+#: model:ir.ui.menu,name:mrp.menu_mrp_production_action view:mrp.production:0
 msgid "Manufacturing Orders"
 msgstr "Üretim Emirleri"
 
@@ -1213,12 +1180,9 @@ msgid "Product UoS Quantity"
 msgstr "Ürün UOS Miktarı"
 
 #. module: mrp
-#: field:mrp.bom,name:0
-#: report:mrp.production.order:0
-#: field:mrp.production.product.line,name:0
-#: view:mrp.property:0
-#: field:mrp.routing,name:0
-#: field:mrp.routing.workcenter,name:0
+#: field:mrp.bom,name:0 report:mrp.production.order:0
+#: field:mrp.production.product.line,name:0 view:mrp.property:0
+#: field:mrp.routing,name:0 field:mrp.routing.workcenter,name:0
 msgid "Name"
 msgstr "Adı"
 
@@ -1233,8 +1197,7 @@ msgid "Mode"
 msgstr "Biçim"
 
 #. module: mrp
-#: help:mrp.bom,message_ids:0
-#: help:mrp.production,message_ids:0
+#: help:mrp.bom,message_ids:0 help:mrp.production,message_ids:0
 #: help:mrp.production.workcenter.line,message_ids:0
 msgid "Messages and communication history"
 msgstr "Mesajlar ve iletişim geçmişi"
@@ -1289,10 +1252,7 @@ msgid "Manufacturing Orders Waiting Products"
 msgstr "Ürün bekleyen Üretim Emirleri"
 
 #. module: mrp
-#: view:mrp.bom:0
-#: view:mrp.production:0
-#: view:mrp.property:0
-#: view:mrp.routing:0
+#: view:mrp.bom:0 view:mrp.production:0 view:mrp.property:0 view:mrp.routing:0
 #: view:mrp.workcenter:0
 msgid "Group By..."
 msgstr "Gruplandır..."
@@ -1330,8 +1290,7 @@ msgstr "Kaynaklar"
 msgid ""
 "Time in hours for this Work Center to achieve the operation of the specified "
 "routing."
-msgstr ""
-"Bu iş merkezinin belirlenen rotadaki işlemi yapması için gereken süre."
+msgstr "Bu iş merkezinin belirlenen rotadaki işlemi yapması için gereken süre."
 
 #. module: mrp
 #: field:mrp.workcenter,costs_journal_id:0
@@ -1350,8 +1309,7 @@ msgid "Per week"
 msgstr "Her hafta"
 
 #. module: mrp
-#: field:mrp.bom,message_unread:0
-#: field:mrp.production,message_unread:0
+#: field:mrp.bom,message_unread:0 field:mrp.production,message_unread:0
 #: field:mrp.production.workcenter.line,message_unread:0
 msgid "Unread Messages"
 msgstr "Okunmamış Mesajlar"
@@ -1363,7 +1321,7 @@ msgid ""
 "products are typically procured manually or through a minimum stock rule."
 msgstr ""
 "Sistem ürünlerin stokta mevcut olmasını bekler. Bu ürünler normalde elle "
-"veya enaz stok kuralı aracılığıyla satın alınır."
+"veya en az stok kuralı aracılığıyla satın alınır."
 
 #. module: mrp
 #: view:mrp.routing:0
@@ -1381,8 +1339,7 @@ msgid "Manufacturing Orders which are ready to start production."
 msgstr "Üretimi başlatmaya hazır Üretim Emirleri"
 
 #. module: mrp
-#: model:ir.model,name:mrp.model_mrp_bom
-#: view:mrp.bom:0
+#: model:ir.model,name:mrp.model_mrp_bom view:mrp.bom:0
 #: field:mrp.production,bom_id:0
 #: model:process.node,name:mrp.process_node_billofmaterial0
 msgid "Bill of Material"
@@ -1396,8 +1353,7 @@ msgstr "Zaman birimini seç"
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.product_supply_method_produce
 #: model:ir.ui.menu,name:mrp.menu_mrp_bom
-#: model:ir.ui.menu,name:mrp.menu_mrp_product_form
-#: view:mrp.config.settings:0
+#: model:ir.ui.menu,name:mrp.menu_mrp_product_form view:mrp.config.settings:0
 msgid "Products"
 msgstr "Ürünler"
 
@@ -1559,8 +1515,7 @@ msgid "Hour Account"
 msgstr "Saat Hesabı"
 
 #. module: mrp
-#: field:mrp.bom,product_uom:0
-#: field:mrp.production,product_uom:0
+#: field:mrp.bom,product_uom:0 field:mrp.production,product_uom:0
 #: field:mrp.production.product.line,product_uom:0
 msgid "Product Unit of Measure"
 msgstr "Ürün Ölçü Birimi"
@@ -1581,8 +1536,7 @@ msgid "Pending"
 msgstr "Bekleyen"
 
 #. module: mrp
-#: field:mrp.bom,active:0
-#: field:mrp.routing,active:0
+#: field:mrp.bom,active:0 field:mrp.routing,active:0
 msgid "Active"
 msgstr "Etkin"
 
@@ -1608,18 +1562,15 @@ msgstr "İş Merkezi Yükleri"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_property_action
-#: model:ir.ui.menu,name:mrp.menu_mrp_property_action
-#: view:mrp.bom:0
-#: field:mrp.bom,property_ids:0
-#: view:mrp.property:0
+#: model:ir.ui.menu,name:mrp.menu_mrp_property_action view:mrp.bom:0
+#: field:mrp.bom,property_ids:0 view:mrp.property:0
 #: field:procurement.order,property_ids:0
 msgid "Properties"
 msgstr "Özellikler"
 
 #. module: mrp
 #: help:mrp.production,origin:0
-msgid ""
-"Reference of the document that generated this production order request."
+msgid "Reference of the document that generated this production order request."
 msgstr "Bu üretim emri isteğinde oluşturulan belge referansı."
 
 #. module: mrp
@@ -1674,8 +1625,7 @@ msgid "When you sell this product, OpenERP will trigger"
 msgstr "Bu ürünü sattığınızda, OpenERP bunu tetikleyecek"
 
 #. module: mrp
-#: field:mrp.production,origin:0
-#: report:mrp.production.order:0
+#: field:mrp.production,origin:0 report:mrp.production.order:0
 msgid "Source Document"
 msgstr "Kaynak Belge"
 
@@ -1699,8 +1649,7 @@ msgstr "Başlatılacak Üretim Emirleri"
 #: model:ir.model,name:mrp.model_mrp_workcenter
 #: model:ir.ui.menu,name:mrp.menu_view_resource_search_mrp
 #: field:mrp.production.workcenter.line,workcenter_id:0
-#: field:mrp.routing.workcenter,workcenter_id:0
-#: view:mrp.workcenter:0
+#: field:mrp.routing.workcenter,workcenter_id:0 view:mrp.workcenter:0
 #: field:report.workcenter.load,workcenter_id:0
 msgid "Work Center"
 msgstr "İş Merkezi"
@@ -1756,19 +1705,15 @@ msgid "Capacity per Cycle"
 msgstr "Çevrim başına Kapasite"
 
 #. module: mrp
-#: model:ir.model,name:mrp.model_product_product
-#: view:mrp.bom:0
-#: field:mrp.bom,product_id:0
-#: view:mrp.production:0
-#: field:mrp.production,product_id:0
-#: report:mrp.production.order:0
+#: model:ir.model,name:mrp.model_product_product view:mrp.bom:0
+#: field:mrp.bom,product_id:0 view:mrp.production:0
+#: field:mrp.production,product_id:0 report:mrp.production.order:0
 #: field:mrp.production.product.line,product_id:0
 msgid "Product"
 msgstr "Ürün"
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:mrp.production,hour_total:0
+#: view:mrp.production:0 field:mrp.production,hour_total:0
 msgid "Total Hours"
 msgstr "Toplam Saat"
 
@@ -1783,8 +1728,7 @@ msgid "Print Cost Structure of Product."
 msgstr "Ürünün Maliyet Yapısını Yazdır."
 
 #. module: mrp
-#: field:mrp.bom,product_uos:0
-#: field:mrp.production.product.line,product_uos:0
+#: field:mrp.bom,product_uos:0 field:mrp.production.product.line,product_uos:0
 msgid "Product UOS"
 msgstr "Ürün UOS"
 
@@ -1795,8 +1739,7 @@ msgstr "Sarf Ürünler"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.act_mrp_product_produce
-#: view:mrp.product.produce:0
-#: view:mrp.production:0
+#: view:mrp.product.produce:0 view:mrp.production:0
 msgid "Produce"
 msgstr "Üret"
 
@@ -1827,8 +1770,7 @@ msgid "Resource"
 msgstr "Kaynak"
 
 #. module: mrp
-#: help:mrp.bom,date_start:0
-#: help:mrp.bom,date_stop:0
+#: help:mrp.bom,date_start:0 help:mrp.bom,date_stop:0
 msgid "Validity of this BoM or component. Keep empty if it's always valid."
 msgstr ""
 "Bu Ürün Ağacının veya bileşeninin geçerliliği. Her zaman geçerliyse boş "
@@ -1883,8 +1825,7 @@ msgid "Source Location"
 msgstr "Kaynak Konumu"
 
 #. module: mrp
-#: view:mrp.production:0
-#: view:mrp.production.product.line:0
+#: view:mrp.production:0 view:mrp.production.product.line:0
 msgid "Scheduled Products"
 msgstr "Planlanan Ürünler"
 
@@ -1907,8 +1848,7 @@ msgstr ""
 "toplam ürün miktarı üretildikten sonra üretim emrini sonlandıracaktır."
 
 #. module: mrp
-#: view:mrp.production:0
-#: report:mrp.production.order:0
+#: view:mrp.production:0 report:mrp.production.order:0
 msgid "Work Orders"
 msgstr "İş Emirleri"
 
@@ -1965,10 +1905,8 @@ msgstr ""
 "kendi Ürün Ağaçlarına sahip olabilirler (çok seviyeli)."
 
 #. module: mrp
-#: field:mrp.bom,company_id:0
-#: field:mrp.production,company_id:0
-#: field:mrp.routing,company_id:0
-#: field:mrp.routing.workcenter,company_id:0
+#: field:mrp.bom,company_id:0 field:mrp.production,company_id:0
+#: field:mrp.routing,company_id:0 field:mrp.routing.workcenter,company_id:0
 #: view:mrp.workcenter:0
 msgid "Company"
 msgstr "Firma"
@@ -2002,8 +1940,7 @@ msgid "Automatic procurement rule"
 msgstr "Otomatik tedarik kuralı"
 
 #. module: mrp
-#: field:mrp.bom,message_ids:0
-#: field:mrp.production,message_ids:0
+#: field:mrp.bom,message_ids:0 field:mrp.production,message_ids:0
 #: field:mrp.production.workcenter.line,message_ids:0
 msgid "Messages"
 msgstr "Mesajlar"
@@ -2022,8 +1959,7 @@ msgid "Error!"
 msgstr "Hata!"
 
 #. module: mrp
-#: code:addons/mrp/report/price.py:139
-#: view:mrp.bom:0
+#: code:addons/mrp/report/price.py:139 view:mrp.bom:0
 #, python-format
 msgid "Components"
 msgstr "Bileşenler"
@@ -2163,8 +2099,7 @@ msgstr "Toplam Mik."
 
 #. module: mrp
 #: field:mrp.production.workcenter.line,hour:0
-#: field:mrp.routing.workcenter,hour_nbr:0
-#: field:report.workcenter.load,hour:0
+#: field:mrp.routing.workcenter,hour_nbr:0 field:report.workcenter.load,hour:0
 msgid "Number of Hours"
 msgstr "Süre (Saat)"
 
@@ -2253,8 +2188,7 @@ msgid "BoM"
 msgstr "BoM"
 
 #. module: mrp
-#: model:ir.model,name:mrp.model_report_mrp_inout
-#: view:report.mrp.inout:0
+#: model:ir.model,name:mrp.model_report_mrp_inout view:report.mrp.inout:0
 msgid "Stock value variation"
 msgstr "Stok Değer Farkı"
 
@@ -2271,8 +2205,7 @@ msgid "Cost Price per Unit of Measure"
 msgstr "Ölçü Birimi başına Maliyet Fiyatı"
 
 #. module: mrp
-#: field:report.mrp.inout,date:0
-#: view:report.workcenter.load:0
+#: field:report.mrp.inout,date:0 view:report.workcenter.load:0
 #: field:report.workcenter.load,name:0
 msgid "Week"
 msgstr "Hafta"
@@ -2352,10 +2285,8 @@ msgstr "Miktar Seç"
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_bom_form_action
 #: model:ir.actions.act_window,name:mrp.product_open_bom
-#: model:ir.ui.menu,name:mrp.menu_mrp_bom_form_action
-#: view:mrp.bom:0
-#: view:product.product:0
-#: field:product.product,bom_ids:0
+#: model:ir.ui.menu,name:mrp.menu_mrp_bom_form_action view:mrp.bom:0
+#: view:product.product:0 field:product.product,bom_ids:0
 msgid "Bill of Materials"
 msgstr "Ürün Ağaçları"
 
@@ -2381,8 +2312,7 @@ msgid "Manage manual picking to fulfill manufacturing orders "
 msgstr "Üretim emirlerini tamamlamak için elle toplamaya izinverme "
 
 #. module: mrp
-#: view:mrp.routing.workcenter:0
-#: view:mrp.workcenter:0
+#: view:mrp.routing.workcenter:0 view:mrp.workcenter:0
 msgid "General Information"
 msgstr "Genel Bilgisi"
 
@@ -2392,8 +2322,7 @@ msgid "Productions"
 msgstr "Üretimler"
 
 #. module: mrp
-#: model:ir.model,name:mrp.model_stock_move_split
-#: view:mrp.production:0
+#: model:ir.model,name:mrp.model_stock_move_split view:mrp.production:0
 msgid "Split in Serial Numbers"
 msgstr "Seri Numaralarına Göre Ayır"
 
@@ -2405,8 +2334,7 @@ msgid ""
 msgstr "Ürün UoS (Satış Birimi), fatura ve stok arttırımı ölçü birimidir."
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:stock.move,production_id:0
+#: view:mrp.production:0 field:stock.move,production_id:0
 msgid "Production"
 msgstr "Üretim"
 
@@ -2438,8 +2366,7 @@ msgid "Change Product Qty"
 msgstr "Ürün Mik Değiştir"
 
 #. module: mrp
-#: field:mrp.routing,note:0
-#: field:mrp.routing.workcenter,note:0
+#: field:mrp.routing,note:0 field:mrp.routing.workcenter,note:0
 #: field:mrp.workcenter,note:0
 msgid "Description"
 msgstr "Açıklama"
@@ -2510,12 +2437,9 @@ msgid "Property Groups"
 msgstr "Özellik Grupları"
 
 #. module: mrp
-#: model:ir.model,name:mrp.model_mrp_routing
-#: view:mrp.bom:0
-#: field:mrp.bom,routing_id:0
-#: view:mrp.production:0
-#: field:mrp.production,routing_id:0
-#: view:mrp.routing:0
+#: model:ir.model,name:mrp.model_mrp_routing view:mrp.bom:0
+#: field:mrp.bom,routing_id:0 view:mrp.production:0
+#: field:mrp.production,routing_id:0 view:mrp.routing:0
 #: model:process.node,name:mrp.process_node_routing0
 msgid "Routing"
 msgstr "Rota"
@@ -2535,8 +2459,7 @@ msgid "Time in hours for the cleaning."
 msgstr "Temizlik için saat cinsinden süre."
 
 #. module: mrp
-#: field:mrp.bom,message_summary:0
-#: field:mrp.production,message_summary:0
+#: field:mrp.bom,message_summary:0 field:mrp.production,message_summary:0
 #: field:mrp.production.workcenter.line,message_summary:0
 msgid "Summary"
 msgstr "Özet"
@@ -2581,8 +2504,7 @@ msgid "On Stock"
 msgstr "Stoktan"
 
 #. module: mrp
-#: field:mrp.bom,sequence:0
-#: report:mrp.production.order:0
+#: field:mrp.bom,sequence:0 report:mrp.production.order:0
 #: field:mrp.production.workcenter.line,sequence:0
 #: field:mrp.routing.workcenter,sequence:0
 msgid "Sequence"
@@ -2604,8 +2526,7 @@ msgid "mrp.config.settings"
 msgstr "mrp.config.settings"
 
 #. module: mrp
-#: view:mrp.production:0
-#: field:mrp.production,move_lines:0
+#: view:mrp.production:0 field:mrp.production,move_lines:0
 #: report:mrp.production.order:0
 msgid "Products to Consume"
 msgstr "Sarfedilecek Ürünler"
