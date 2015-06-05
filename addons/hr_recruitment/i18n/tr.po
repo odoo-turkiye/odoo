@@ -1,42 +1,40 @@
-# Turkish translation for openobject-addons
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-#
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# * hr_recruitment
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2013-06-07 19:36+0000\n"
-"PO-Revision-Date: 2014-09-03 12:00+0200\n"
-"Last-Translator: Huri Özbayram <info@7gates.co>\n"
-=======
 "POT-Creation-Date: 2014-08-14 00:10+0000\n"
 "PO-Revision-Date: 2013-08-04 16:33+0000\n"
 "Last-Translator: Ediz Duman <neps1192@gmail.com>\n"
->>>>>>> upstream/7.0
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-<<<<<<< HEAD
-"X-Launchpad-Export-Date: 2013-11-21 06:13+0000\n"
-"X-Generator: Poedit 1.6.9\n"
-"Language: tr\n"
-=======
 "X-Launchpad-Export-Date: 2014-08-14 06:58+0000\n"
 "X-Generator: Launchpad (build 17156)\n"
->>>>>>> upstream/7.0
+"Project-Id-Version: Odoo 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 00:10+0000\n"
+"PO-Revision-Date: 2015-05-29 13:00+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/odoo-7/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: hr_recruitment
 #: help:hr.applicant,active:0
 msgid ""
 "If the active field is set to false, it will allow you to hide the case "
 "without removing it."
-msgstr ""
-"Etkin alanda yanlış olarak ayarlanırsa, bu durumda gizleme sağlayacak "
-"kaldırmadan."
+msgstr "Etkin alanda yanlış olarak ayarlanırsa, bu durumda gizleme sağlayacak kaldırmadan."
 
 #. module: hr_recruitment
 #: view:hr.recruitment.stage:0 field:hr.recruitment.stage,requirements:0
@@ -63,9 +61,7 @@ msgstr "Mobil:"
 msgid ""
 "This stage is not visible, for example in status bar or kanban view, when "
 "there are no records in that stage to display."
-msgstr ""
-"Bu aşama sırasında, durum çubuğu veya kanban görünümünde, örneğin görünmez "
-"görüntülemek için bu aşamada herhangi bir kayıt yoktur."
+msgstr "Bu aşama sırasında, durum çubuğu veya kanban görünümünde, örneğin görünmezgörüntülemek için bu aşamada herhangi bir kayıt yoktur."
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_graduate
@@ -154,37 +150,16 @@ msgid ""
 "                Click to add a new job applicant.\n"
 "              </p><p>\n"
 "                OpenERP helps you track applicants in the recruitment\n"
-"                process and follow up all operations: meetings, interviews, "
-"etc.\n"
+"                process and follow up all operations: meetings, interviews, etc.\n"
 "              </p><p>\n"
-"                If you setup the email gateway, applicants and their "
-"attached\n"
+"                If you setup the email gateway, applicants and their attached\n"
 "                CV are created automatically when an email is sent to\n"
-"                jobs@yourcompany.com. If you install the document "
-"management\n"
-"                modules, all resumes are indexed automatically, so that you "
-"can\n"
+"                jobs@yourcompany.com. If you install the document management\n"
+"                modules, all resumes are indexed automatically, so that you can\n"
 "                easily search through their content.\n"
 "              </p>\n"
 "            "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
-"                Yeni bir İş başvurusu eklemek için tıklayın.\n"
-"              </p><p>\n"
-"                OpenERP helps you track applicants in the recruitment\n"
-"                process and follow up all operations: meetings, interviews, "
-"etc.\n"
-"              </p><p>\n"
-"                If you setup the email gateway, applicants and their "
-"attached\n"
-"                CV are created automatically when an email is sent to\n"
-"                jobs@yourcompany.com. If you install the document "
-"management\n"
-"                modules, all resumes are indexed automatically, so that you "
-"can\n"
-"                easily search through their content.\n"
-"              </p>\n"
-"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Yeni bir İş başvurusu eklemek için tıklayın.\n              </p><p>\n                OpenERP helps you track applicants in the recruitment\n                process and follow up all operations: meetings, interviews, etc.\n              </p><p>\n                If you setup the email gateway, applicants and their attached\n                CV are created automatically when an email is sent to\n                jobs@yourcompany.com. If you install the document management\n                modules, all resumes are indexed automatically, so that you can\n                easily search through their content.\n              </p>\n            "
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.crm_case_categ0_act_job
@@ -195,7 +170,7 @@ msgstr "Başvurular"
 #. module: hr_recruitment
 #: field:hr.applicant,day_open:0
 msgid "Days to Open"
-msgstr ""
+msgstr "Açılış Günleri"
 
 #. module: hr_recruitment
 #: field:hr.applicant,emp_id:0
@@ -315,7 +290,7 @@ msgstr "İşe Alım"
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr ""
+msgstr "Sohbetçi özetini (mesaj sayısı, ...) barındırır. Bu özet kanban görünümlerine eklenmek üzere doğrudan html formatındadır."
 
 #. module: hr_recruitment
 #: code:addons/hr_recruitment/hr_recruitment.py:427
@@ -415,21 +390,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to add a new stage in the recruitment process.\n"
 "          </p><p>\n"
-"            Define here your stages of the recruitment process, for "
-"example:\n"
+"            Define here your stages of the recruitment process, for example:\n"
 "            qualification call, first interview, second interview, refused,\n"
 "            hired.\n"
 "          </p>\n"
 "        "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
-"            Işe alım sürecinde yeni bir aşamaya eklemek için tıklayın.\n"
-"          </p><p>\n"
-"            burada işe alım sürecinin sizin aşamalarında tanımlayın örnek:\n"
-"            qualification call, first interview, second interview, refused,\n"
-"            hired.\n"
-"          </p>\n"
-"        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Işe alım sürecinde yeni bir aşamaya eklemek için tıklayın.\n          </p><p>\n            burada işe alım sürecinin sizin aşamalarında tanımlayın örnek:\n            qualification call, first interview, second interview, refused,\n            hired.\n          </p>\n        "
 
 #. module: hr_recruitment
 #: view:hr.recruitment.report:0
@@ -446,9 +412,7 @@ msgstr "Sonraki İşlem"
 msgid ""
 "Email alias for this job position. New emails will automatically create new "
 "applicants for this job position."
-msgstr ""
-"Bu iş pozisyonu için e-posta takma adı. Bu iş pozisyonu için başvuruda yeni "
-"e-posta otomatik olarak oluşturur."
+msgstr "Bu iş pozisyonu için e-posta takma adı. Bu iş pozisyonu için başvuruda yeni e-posta otomatik olarak oluşturur."
 
 #. module: hr_recruitment
 #: selection:hr.applicant,priority:0
@@ -563,11 +527,11 @@ msgstr "Başvuru, ekstra avantajları Beklenen Maaş"
 #: help:hr.applicant,state:0
 msgid ""
 "The status is set to 'Draft', when a case is created.                      "
-"If the case is in progress the status is set to 'Open'.                      "
-"When the case is over, the status is set to 'Done'.                      If "
-"the case needs to be reviewed then the status is                       set "
-"to 'Pending'."
-msgstr ""
+"If the case is in progress the status is set to 'Open'."
+"                      When the case is over, the status is set to 'Done'."
+"                      If the case needs to be reviewed then the status is"
+"                       set to 'Pending'."
+msgstr "Bir durum oluşturulduğunda durum 'Taslak' olarak ayarlanır. Durum sürmekte ise 'Açık' olarak ayarlanır. Durum bittiğinde, durum 'Yapıldı' olarak ayarlanır. Eğer durumun incelenmesi gerekiyorsa durum 'Bekliyor' olarak ayarlanır."
 
 #. module: hr_recruitment
 #: selection:hr.recruitment.report,month:0
@@ -744,7 +708,7 @@ msgid ""
 "These email addresses will be added to the CC field of all inbound and "
 "outbound emails for this record before being sent. Separate multiple email "
 "addresses with a comma"
-msgstr ""
+msgstr "Bu eposta adresleri gönderilmeden önce bütün gelen ve giden epostaların CC satırına eklenecektir. Birden fazla eposta adresini virgül ile ayırınız."
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_hr_recruitment_degree
@@ -850,20 +814,11 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to add a new stage in the recruitment process.\n"
 "          </p><p>\n"
-"            Don't forget to specify the department if your recruitment "
-"process\n"
+"            Don't forget to specify the department if your recruitment process\n"
 "            is different according to the job position.\n"
 "          </p>\n"
 "        "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
-"            Işe alım sürecinde yeni bir aşamaya eklemek için tıklayın.\n"
-"          </p><p>\n"
-"            Don't forget to specify the department if your recruitment "
-"process\n"
-"            is different according to the job position.\n"
-"          </p>\n"
-"        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Işe alım sürecinde yeni bir aşamaya eklemek için tıklayın.\n          </p><p>\n            Don't forget to specify the department if your recruitment process\n            is different according to the job position.\n          </p>\n        "
 
 #. module: hr_recruitment
 #: field:hr.applicant,response:0
@@ -978,19 +933,14 @@ msgstr "İptal"
 #. module: hr_recruitment
 #: view:hr.recruitment.partner.create:0
 msgid "Are you sure you want to create a contact based on this job request ?"
-msgstr ""
-"Bu iş talebi üzerine bir kişi oluşturmak için istediğinizden emin misiniz?"
+msgstr "Bu iş talebi üzerine bir kişi oluşturmak için istediğinizden emin misiniz?"
 
 #. module: hr_recruitment
 #: help:hr.config.settings,fetchmail_applicants:0
 msgid ""
-"Allow applicants to send their job application to an email address "
-"(jobs@mycompany.com),\n"
+"Allow applicants to send their job application to an email address (jobs@mycompany.com),\n"
 "                and create automatically application documents in the system."
-msgstr ""
-"Başvuru e-posta adresine onların iş başvurusu göndermesine izin ver "
-"(jobs@mycompany.com),\n"
-"                ve sistemde başvuru belgelerini otomatik olarak oluşturma."
+msgstr "Başvuru e-posta adresine onların iş başvurusu göndermesine izin ver (jobs@mycompany.com),\n                ve sistemde başvuru belgelerini otomatik olarak oluşturma."
 
 #. module: hr_recruitment
 #: view:hr.applicant:0 selection:hr.applicant,state:0
@@ -1108,9 +1058,7 @@ msgstr "Boş ise görünümlerinide gizle"
 #: help:hr.config.settings,module_document_ftp:0
 msgid ""
 "Manage your CV's and motivation letter related to all applicants.\n"
-"                This installs the module document_ftp. This will install the "
-"knowledge management  module in order to allow you to search using specific "
-"keywords through  the content of all documents (PDF, .DOCx...)"
+"                This installs the module document_ftp. This will install the knowledge management  module in order to allow you to search using specific keywords through  the content of all documents (PDF, .DOCx...)"
 msgstr ""
 
 #. module: hr_recruitment

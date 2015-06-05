@@ -1,22 +1,22 @@
-# Turkish translation for openobject-addons
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-#
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# * membership
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Project-Id-Version: Odoo 7.0\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-07 19:37+0000\n"
-"PO-Revision-Date: 2014-09-03 12:41+0200\n"
-"Last-Translator: Huri Özbayram <info@7gates.co>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"PO-Revision-Date: 2015-05-29 13:00+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/odoo-7/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-11-21 06:20+0000\n"
-"X-Generator: Poedit 1.6.9\n"
+"Content-Transfer-Encoding: \n"
 "Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: membership
 #: model:process.transition,name:membership.process_transition_invoicetoassociate0
@@ -409,7 +409,7 @@ msgstr ""
 #. module: membership
 #: view:report.membership:0
 msgid "Associated Partner"
-msgstr ""
+msgstr "İlişkili İş Ortağı"
 
 #. module: membership
 #: model:ir.model,name:membership.model_membership_invoice
@@ -545,16 +545,11 @@ msgstr "Ekim"
 #: help:res.partner,membership_state:0
 msgid ""
 "It indicates the membership state.\n"
-"                    -Non Member: A partner who has not applied for any "
-"membership.\n"
-"                    -Cancelled Member: A member who has cancelled his "
-"membership.\n"
-"                    -Old Member: A member whose membership date has "
-"expired.\n"
-"                    -Waiting Member: A member who has applied for the "
-"membership and whose invoice is going to be created.\n"
-"                    -Invoiced Member: A member whose invoice has been "
-"created.\n"
+"                    -Non Member: A partner who has not applied for any membership.\n"
+"                    -Cancelled Member: A member who has cancelled his membership.\n"
+"                    -Old Member: A member whose membership date has expired.\n"
+"                    -Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+"                    -Invoiced Member: A member whose invoice has been created.\n"
 "                    -Paying member: A member who has paid the membership fee."
 msgstr ""
 
@@ -609,18 +604,12 @@ msgstr "Mevcut Üyelik Durumu"
 #: help:membership.membership_line,state:0
 msgid ""
 "It indicates the membership status.\n"
-"                        -Non Member: A member who has not applied for any "
-"membership.\n"
-"                        -Cancelled Member: A member who has cancelled his "
-"membership.\n"
-"                        -Old Member: A member whose membership date has "
-"expired.\n"
-"                        -Waiting Member: A member who has applied for the "
-"membership and whose invoice is going to be created.\n"
-"                        -Invoiced Member: A member whose invoice has been "
-"created.\n"
-"                        -Paid Member: A member who has paid the membership "
-"amount."
+"                        -Non Member: A member who has not applied for any membership.\n"
+"                        -Cancelled Member: A member who has cancelled his membership.\n"
+"                        -Old Member: A member whose membership date has expired.\n"
+"                        -Waiting Member: A member who has applied for the membership and whose invoice is going to be created.\n"
+"                        -Invoiced Member: A member whose invoice has been created.\n"
+"                        -Paid Member: A member who has paid the membership amount."
 msgstr ""
 
 #. module: membership

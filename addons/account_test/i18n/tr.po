@@ -1,78 +1,47 @@
-# Turkish translation for openobject-addons
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-#
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# * account_test
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: openobject-addons\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Project-Id-Version: Odoo 7.0\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-07 19:36+0000\n"
-"PO-Revision-Date: 2014-09-02 17:26+0200\n"
-"Last-Translator: Huri Özbayram <info@7gates.co>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"PO-Revision-Date: 2015-05-29 12:59+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/odoo-7/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-12-20 05:33+0000\n"
-"X-Generator: Poedit 1.6.9\n"
+"Content-Transfer-Encoding: \n"
 "Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: account_test
 #: view:accounting.assert.test:0
 msgid ""
-"Code should always set a variable named `result` with the result of your "
-"test, that can be a list or\n"
-"a dictionary. If `result` is an empty list, it means that the test was "
-"succesful. Otherwise it will\n"
+"Code should always set a variable named `result` with the result of your test, that can be a list or\n"
+"a dictionary. If `result` is an empty list, it means that the test was succesful. Otherwise it will\n"
 "try to translate and print what is inside `result`.\n"
 "\n"
-"If the result of your test is a dictionary, you can set a variable named "
-"`column_order` to choose in\n"
+"If the result of your test is a dictionary, you can set a variable named `column_order` to choose in\n"
 "what order you want to print `result`'s content.\n"
 "\n"
-"Should you need them, you can also use the following variables into your "
-"code:\n"
+"Should you need them, you can also use the following variables into your code:\n"
 "    * cr: cursor to the database\n"
 "    * uid: ID of the current user\n"
 "\n"
-"In any ways, the code must be legal python statements with correct "
-"indentation (if needed).\n"
+"In any ways, the code must be legal python statements with correct indentation (if needed).\n"
 "\n"
 "Example: \n"
 "    sql = '''SELECT id, name, ref, date\n"
 "             FROM account_move_line \n"
-"             WHERE account_id IN (SELECT id FROM account_account WHERE type "
-"= 'view')\n"
+"             WHERE account_id IN (SELECT id FROM account_account WHERE type = 'view')\n"
 "          '''\n"
 "    cr.execute(sql)\n"
 "    result = cr.dictfetchall()"
-msgstr ""
-"Kod her zaman, testinizin sonucunda ‘sonuç’ olarak adlandırılan bir değişken "
-"oluşturmalıdır, bu bir\n"
-"liste ya da bir sözlük olabilir. Eğer ‘sonuç’ boş bir listeyse, bu testin "
-"başarılı olduğu anlamındadır. Aksi\n"
-"takdirde ‘sonuç’ içinde ne varsa çevirisini yapın ve yazdırın.\n"
-"\n"
-"Testinizin sonucu bir sözlük ise, ‘sonuç’ içeriğini hangi sırada yazdırmayı "
-"seçmeniz için ‘sütun_sırası’\n"
-"adıyla bir değişken oluşturmalısınız.\n"
-"\n"
-"Gerekirse kodunuza aşağıdaki değişkenleri de ekleyebilirsiniz:\n"
-"    * cr: veritabanı imleçi\n"
-"    * uid: geçerli kullanıcı ID\n"
-"\n"
-"Kod her durumda doğru satırbaşı girintisi ile (gerekirse) geçerli piton "
-"komutları olmalı.\n"
-"\n"
-"Example: \n"
-"    sql = '''SELECT id, name, ref, date\n"
-"             FROM account_move_line \n"
-"             WHERE account_id IN (SELECT id FROM account_account WHERE type "
-"= 'view')\n"
-"          '''\n"
-"    cr.execute(sql)\n"
-"    result = cr.dictfetchall()"
+msgstr "Kod her zaman, testinizin sonucunda ‘sonuç’ olarak adlandırılan bir değişken oluşturmalıdır, bu bir\nliste ya da bir sözlük olabilir. Eğer ‘sonuç’ boş bir listeyse, bu testin başarılı olduğu anlamındadır. Aksi\ntakdirde ‘sonuç’ içinde ne varsa çevirisini yapın ve yazdırın.\n\nTestinizin sonucu bir sözlük ise, ‘sonuç’ içeriğini hangi sırada yazdırmayı seçmeniz için ‘sütun_sırası’\nadıyla bir değişken oluşturmalısınız.\n\nGerekirse kodunuza aşağıdaki değişkenleri de ekleyebilirsiniz:\n    * cr: veritabanı imleçi\n    * uid: geçerli kullanıcı ID\n\nKod her durumda doğru satırbaşı girintisi ile (gerekirse) geçerli piton komutları olmalı.\n\nExample: \n    sql = '''SELECT id, name, ref, date\n             FROM account_move_line \n             WHERE account_id IN (SELECT id FROM account_account WHERE type = 'view')\n          '''\n    cr.execute(sql)\n    result = cr.dictfetchall()"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_02
@@ -82,18 +51,14 @@ msgstr "Test 2: Bir mali yılın açılışı"
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_05
 msgid ""
-"Check that reconciled invoice for Sales/Purchases has reconciled entries for "
-"Payable and Receivable Accounts"
-msgstr ""
-"Uzlaştırılmış Satış/Satınalma faturasının Alacak ve Borç Hesaplarında "
-"uzlaştırılmış girişler olup olmadığını denetleyin"
+"Check that reconciled invoice for Sales/Purchases has reconciled entries for"
+" Payable and Receivable Accounts"
+msgstr "Uzlaştırılmış Satış/Satınalma faturasının Alacak ve Borç Hesaplarında uzlaştırılmış girişler olup olmadığını denetleyin"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_03
 msgid "Check if movement lines are balanced and have the same date and period"
-msgstr ""
-"Hareket kalemlerinin denk olduğunu ve aynı tarih ve dönemde olduğunu "
-"denetleyin"
+msgstr "Hareket kalemlerinin denk olduğunu ve aynı tarih ve dönemde olduğunu denetleyin"
 
 #. module: account_test
 #: field:accounting.assert.test,name:0
@@ -120,9 +85,7 @@ msgstr "Ödenmiş/uzlaştırılmış faturaların 'Açık' durumda olmadığın�
 msgid ""
 "Check that reconciled account moves, that define Payable and Receivable "
 "accounts, are belonging to reconciled invoices"
-msgstr ""
-"Borç ve Alacak hesaplarını tanımlayan uzlaştırılmış hareket kalemlerinin "
-"uzlaştırılmış faturalara ait olduğunu denetleyin"
+msgstr "Borç ve Alacak hesaplarını tanımlayan uzlaştırılmış hareket kalemlerinin uzlaştırılmış faturalara ait olduğunu denetleyin"
 
 #. module: account_test
 #: view:accounting.assert.test:0
@@ -142,9 +105,7 @@ msgstr "Açıklama"
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_06_1
 msgid "Check that there's no move for any account with « View » account type"
-msgstr ""
-"« View » Hesap türündeki herhangi bir hesap için hiç hareket olmadığını "
-"denetleyin"
+msgstr "« View » Hesap türündeki herhangi bir hesap için hiç hareket olmadığını denetleyin"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_08
@@ -193,11 +154,9 @@ msgstr "Python kodu"
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_07
 msgid ""
-"Check on bank statement that the Closing Balance = Starting Balance + sum of "
-"statement lines"
-msgstr ""
-"Hesap özetinde Kapanış Bakiyesi = Açılış Bakiyesi + hesap özeti kalemleri "
-"toplamı olduğunu denetleyin"
+"Check on bank statement that the Closing Balance = Starting Balance + sum of"
+" statement lines"
+msgstr "Hesap özetinde Kapanış Bakiyesi = Açılış Bakiyesi + hesap özeti kalemleri toplamı olduğunu denetleyin"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_07
@@ -239,9 +198,7 @@ msgstr "Sıra"
 msgid ""
 "Check if the balance of the new opened fiscal year matches with last year's "
 "balance"
-msgstr ""
-"Yeni açılan mali yılın bakiyesinin geçen yılın bakiyesi ile eşleştiğini "
-"denetleyin"
+msgstr "Yeni açılan mali yılın bakiyesinin geçen yılın bakiyesi ile eşleştiğini denetleyin"
 
 #. module: account_test
 #: view:accounting.assert.test:0
@@ -255,11 +212,7 @@ msgid ""
 "                Click to create Accounting Test.\n"
 "              </p>\n"
 "            "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
-"                Muhasebe Testini başlatmak için tıklayın.\n"
-"              </p>\n"
-"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Muhasebe Testini başlatmak için tıklayın.\n              </p>\n            "
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_01

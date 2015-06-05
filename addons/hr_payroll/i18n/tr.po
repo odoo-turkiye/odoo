@@ -1,33 +1,33 @@
-# Turkish translation for openobject-addons
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-#
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# * hr_payroll
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2013-06-07 19:36+0000\n"
-"PO-Revision-Date: 2014-09-03 11:54+0200\n"
-"Last-Translator: Huri Özbayram <info@7gates.co>\n"
-=======
 "POT-Creation-Date: 2014-08-14 00:10+0000\n"
 "PO-Revision-Date: 2013-08-10 18:33+0000\n"
 "Last-Translator: Ediz Duman <neps1192@gmail.com>\n"
->>>>>>> upstream/7.0
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-<<<<<<< HEAD
-"X-Launchpad-Export-Date: 2013-11-21 06:12+0000\n"
-"X-Generator: Poedit 1.6.9\n"
-"Language: tr\n"
-=======
 "X-Launchpad-Export-Date: 2014-08-14 06:57+0000\n"
 "X-Generator: Launchpad (build 17156)\n"
->>>>>>> upstream/7.0
+"Project-Id-Version: Odoo 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 00:10+0000\n"
+"PO-Revision-Date: 2015-05-29 13:00+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/odoo-7/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: hr_payroll
 #: field:hr.payslip.line,condition_select:0
@@ -136,8 +136,8 @@ msgstr "Toplu Maaş Bordrosu"
 #. module: hr_payroll
 #: view:hr.payslip.employees:0
 msgid ""
-"This wizard will generate payslips for all selected employee(s) based on the "
-"dates and credit note specified on Payslips Run."
+"This wizard will generate payslips for all selected employee(s) based on the"
+" dates and credit note specified on Payslips Run."
 msgstr ""
 
 #. module: hr_payroll
@@ -322,14 +322,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new contribution register.\n"
 "              </p><p>\n"
-"                A contribution register is a third party involved in the "
-"salary\n"
-"                payment of the employees. It can be the social security, "
-"the\n"
+"                A contribution register is a third party involved in the salary\n"
+"                payment of the employees. It can be the social security, the\n"
 "                estate or anyone that collect or inject money on payslips.\n"
 "              </p>\n"
 "            "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Yeni bir katkı payı kaydı için tıklayın.\n              </p><p>\n                Bir katkı kaydı çalışanların maaş ödemelerinde yer alan\n                bir üçüncü taraftır. Sosyal güvenlik, vergi ya da bordrolardan\n                para toplayan ya da para koyan herhangi bir kimsedir.\n              </p>\n            "
 
 #. module: hr_payroll
 #: help:hr.payslip.line,condition_range_max:0
@@ -343,7 +341,7 @@ msgstr "Bu kural için uygulanan azami tutar."
 msgid ""
 "Applied this rule for calculation if condition is true. You can specify "
 "condition like basic > 1000."
-msgstr ""
+msgstr "Bu kuralı eğer koşul doğruysa uygulayın. >1000 gibi temel bir koşul belirtebilirsiniz."
 
 #. module: hr_payroll
 #: report:contribution.register.lines:0 report:paylip.details:0
@@ -491,9 +489,7 @@ msgstr "Uyarı!"
 msgid ""
 "If the active field is set to false, it will allow you to hide the salary "
 "rule without removing it."
-msgstr ""
-"Etkin alanda yanlış ayarlanırsa, size maaş gizleme sağlayacak bu kural "
-"kaldırmadan."
+msgstr "Etkin alanda yanlış ayarlanırsa, size maaş gizleme sağlayacak bu kural kaldırmadan."
 
 #. module: hr_payroll
 #: field:hr.payslip,state:0 field:hr.payslip.run,state:0
@@ -624,9 +620,9 @@ msgstr "Yanlış aralık koşulu maaş kural %s (%s) için tanımlama."
 #. module: hr_payroll
 #: help:hr.payslip.input,amount:0
 msgid ""
-"It is used in computation. For e.g. A rule for sales having 1% commission of "
-"basic salary for per product can defined in expression like result = inputs."
-"SALEURO.amount * contract.wage*0.01."
+"It is used in computation. For e.g. A rule for sales having 1% commission of"
+" basic salary for per product can defined in expression like result = "
+"inputs.SALEURO.amount * contract.wage*0.01."
 msgstr ""
 
 #. module: hr_payroll
@@ -651,9 +647,7 @@ msgstr "Şirket Katkısı"
 msgid ""
 "If its checked, indicates that all payslips generated from here are refund "
 "payslips."
-msgstr ""
-"Bu İşaretliyse, buradan oluşturulan tüm maaş bordroları iade olduğunu "
-"gösterir."
+msgstr "Bu İşaretliyse, buradan oluşturulan tüm maaş bordroları iade olduğunu gösterir"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:878
@@ -911,7 +905,7 @@ msgid ""
 "the contract chosen. If you let empty the field contract, this field isn't "
 "mandatory anymore and thus the rules applied will be all the rules set on "
 "the structure of all contracts of the employee valid for the chosen period"
-msgstr ""
+msgstr "Seçilen sözleşmeye uygun olarak bu bordroda uygulanacak kuralları tanımlayın. Sözleşme alanını boş bırakırsanız, bu alan artık zorunlu olmaz ve böylece uygulanan kurallar, personel sözleşmelerinin yapısında seçilen dönem için tanımlanan bütün kurallar  için geçerli olacaktır."
 
 #. module: hr_payroll
 #: field:hr.payroll.structure,children_ids:0
@@ -950,7 +944,7 @@ msgstr "hr.config.settings"
 #: field:hr.salary.rule,register_id:0
 #: model:ir.model,name:hr_payroll.model_hr_contribution_register
 msgid "Contribution Register"
-msgstr ""
+msgstr "Katkı Payı Kaydı"
 
 #. module: hr_payroll
 #: view:payslip.lines.contribution.register:0
@@ -999,7 +993,7 @@ msgstr "Toplam Temel Maaş"
 #: model:ir.actions.act_window,name:hr_payroll.action_contribution_register_form
 #: model:ir.ui.menu,name:hr_payroll.menu_action_hr_contribution_register_form
 msgid "Contribution Registers"
-msgstr ""
+msgstr "Katkı Payı Kayıtları"
 
 #. module: hr_payroll
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_reporting
@@ -1075,19 +1069,18 @@ msgstr "Hesaplama sırasını düzenlemek için kullanın"
 #: help:hr.payslip,state:0
 msgid ""
 "* When the payslip is created the status is 'Draft'.            \n"
-"* If the payslip is under verification, the status is "
-"'Waiting'.             \n"
+"* If the payslip is under verification, the status is 'Waiting'.             \n"
 "* If the payslip is confirmed then status is set to 'Done'.            \n"
 "* When user cancel payslip the status is 'Rejected'."
-msgstr ""
+msgstr "* Maaş bordrosu oluşturulduğunda durumu 'Taslak'tır.            \n* Maaş bordrosu doğrulama sürecindeyse durumu 'Bekliyor'dur.             \n* Maaş bordrosu onaylanmışsa durumu 'Tamamlandı' olur.            \n* Kullanıcı maaş bordrosunu iptal ederse durumu 'Reddedildi' olur."
 
 #. module: hr_payroll
 #: help:hr.payslip.line,condition_range:0
 #: help:hr.salary.rule,condition_range:0
 msgid ""
-"This will be used to compute the % fields values; in general it is on basic, "
-"but you can also use categories code fields in lowercase as a variable names "
-"(hra, ma, lta, etc.) and the variable basic."
+"This will be used to compute the % fields values; in general it is on basic,"
+" but you can also use categories code fields in lowercase as a variable "
+"names (hra, ma, lta, etc.) and the variable basic."
 msgstr ""
 
 #. module: hr_payroll
@@ -1182,10 +1175,3 @@ msgstr "Muhasebe"
 #: field:hr.salary.rule,condition_range:0
 msgid "Range Based on"
 msgstr "Aralık Bazında"
-
-#, python-format
-#~ msgid "Warning !"
-#~ msgstr "Uyarı!"
-
-#~ msgid "Cancel"
-#~ msgstr "İptal"

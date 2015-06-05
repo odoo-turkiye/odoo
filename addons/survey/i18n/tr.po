@@ -1,33 +1,33 @@
-# Turkish translation for openobject-addons
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-#
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# * survey
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2013-06-07 19:37+0000\n"
-"PO-Revision-Date: 2014-09-03 15:42+0200\n"
-"Last-Translator: Huri Özbayram <info@7gates.co>\n"
-=======
 "POT-Creation-Date: 2014-08-14 00:11+0000\n"
 "PO-Revision-Date: 2013-11-04 10:58+0000\n"
 "Last-Translator: Ayhan KIZILTAN <Unknown>\n"
->>>>>>> upstream/7.0
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-<<<<<<< HEAD
-"X-Launchpad-Export-Date: 2013-11-21 06:38+0000\n"
-"X-Generator: Poedit 1.6.9\n"
-"Language: tr\n"
-=======
 "X-Launchpad-Export-Date: 2014-08-14 07:29+0000\n"
 "X-Generator: Launchpad (build 17156)\n"
->>>>>>> upstream/7.0
+"Project-Id-Version: Odoo 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-14 00:11+0000\n"
+"PO-Revision-Date: 2015-05-29 13:01+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/odoo-7/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: survey
 #: view:survey.response.line:0
@@ -41,9 +41,7 @@ msgid ""
 "Minimum Required Answer you                                     entered is "
 "greater than the number of answer.                                      "
 "Please use a number that is smaller than %d."
-msgstr ""
-"Girdiğiniz Gerekli Enaz Yanıt, yanıt sayısından daha büyüktür. Lütfen %d "
-"sayısından daha küçük bir sayı kullanın."
+msgstr "Girdiğiniz Gerekli Enaz Yanıt, yanıt sayısından daha büyüktür. Lütfen %d sayısından daha küçük bir sayı kullanın."
 
 #. module: survey
 #: view:survey.question.wiz:0
@@ -200,9 +198,7 @@ msgid ""
 "#Required Answer you entered                                     is greater "
 "than the number of answer.                                     Please use a "
 "number that is smaller than %d."
-msgstr ""
-"Girdiğiniz Gerekli Yanıt sayısı yanıt sayısından büyüktür. Lütfen %d "
-"sayısından daha küçük bir sayı kullanın."
+msgstr "Girdiğiniz Gerekli Yanıt sayısı yanıt sayısından büyüktür. Lütfen %d sayısından daha küçük bir sayı kullanın."
 
 #. module: survey
 #: field:survey.question,tot_resp:0
@@ -224,12 +220,10 @@ msgstr "survey.name.wiz"
 #, python-format
 msgid ""
 "Maximum Required Answer you                                     entered for "
-"your maximum is greater than the number of "
-"answer.                                      Please use a number that is "
-"smaller than %d."
-msgstr ""
-"Ençok için girdiğiniz Gerekli Ençok Yanıt, yanıt sayısından daha büyüktür. "
-"Lütfen %d sayısından daha küçük bir sayı kullanın."
+"your maximum is greater than the number of answer."
+"                                      Please use a number that is smaller "
+"than %d."
+msgstr "Ençok için girdiğiniz Gerekli Ençok Yanıt, yanıt sayısından daha büyüktür. Lütfen %d sayısından daha küçük bir sayı kullanın."
 
 #. module: survey
 #: selection:survey.question,type:0
@@ -248,9 +242,7 @@ msgstr "Mevcut Kullanıcı için Hatırlatma gönder"
 msgid ""
 "Maximum Required Answer you entered for your maximum is greater than the "
 "number of answer. Please use a number that is smaller than %d."
-msgstr ""
-"Ençok için girdiğiniz Gerekli Ençok Yanıt, yanıt sayısından daha büyüktür. "
-"Lütfen %d sayısından daha küçük bir sayı kullanın."
+msgstr "Ençok için girdiğiniz Gerekli Ençok Yanıt, yanıt sayısından daha büyüktür. Lütfen %d sayısından daha küçük bir sayı kullanın."
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_question view:survey:0
@@ -336,19 +328,14 @@ msgid "Rating Scale"
 msgstr "Ölçüm Skalası"
 
 #. module: survey
-<<<<<<< HEAD
-#: code:addons/survey/survey.py:152 code:addons/survey/survey.py:187
-=======
 #: code:addons/survey/survey.py:153
 #: code:addons/survey/survey.py:188
->>>>>>> upstream/7.0
+#: code:addons/survey/survey.py:153 code:addons/survey/survey.py:188
 #, python-format
 msgid ""
-"This survey has no question defined. Please define the questions and answers "
-"first."
-msgstr ""
-"Bu ankette tanımlanmış soru yok. Lütfen önce soruları ve yanıtları "
-"tanımlayın."
+"This survey has no question defined. Please define the questions and answers"
+" first."
+msgstr "Bu ankette tanımlanmış soru yok. Lütfen önce soruları ve yanıtları tanımlayın."
 
 #. module: survey
 #: field:survey.question,comment_field_type:0
@@ -448,24 +435,7 @@ msgid ""
 "\n"
 "\n"
 "Thanks,"
-msgstr ""
-"\n"
-"Sayın %%(name)s, \n"
-"\n"
-"\n"
-"Araştırmamızı doldurmak için biraz zaman ayırmanızı rica ediyoruz: \n"
-"%s\n"
-"\n"
-"Bu araştırmaya aşağıdaki parametrelerden erişebilirsiniz:\n"
-" URL: %s\n"
-" Kullanıcı kimliğiniz: %%(login)s\n"
-"\n"
-" Parolanız: %%(passwd)s\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"Teşekkürler,"
+msgstr "\nSayın %%(name)s, \n\n\nAraştırmamızı doldurmak için biraz zaman ayırmanızı rica ediyoruz: \n%s\n\nBu araştırmaya aşağıdaki parametrelerden erişebilirsiniz:\n URL: %s\n Kullanıcı kimliğiniz: %%(login)s\n\n Parolanız: %%(passwd)s\n\n\n\n\nTeşekkürler,"
 
 #. module: survey
 #: field:survey.response.line,single_text:0
@@ -498,7 +468,7 @@ msgstr "survey.request"
 #: code:addons/survey/wizard/survey_answer.py:379
 #, python-format
 msgid "Previous"
-msgstr ""
+msgstr "Önceki"
 
 #. module: survey
 #: field:survey.question,comment_maximum_float:0
@@ -561,7 +531,7 @@ msgstr "Anket Sayfası Ara"
 #: code:addons/survey/wizard/survey_answer.py:380
 #, python-format
 msgid "Next"
-msgstr ""
+msgstr "Sonraki"
 
 #. module: survey
 #: view:survey.request:0
@@ -613,21 +583,17 @@ msgid "Required Answer"
 msgstr "Yanıt Gerekli"
 
 #. module: survey
-<<<<<<< HEAD
-#: code:addons/survey/survey.py:96 code:addons/survey/survey.py:259
-=======
 #: code:addons/survey/survey.py:425
 #: code:addons/survey/survey.py:513
+#: code:addons/survey/survey.py:425 code:addons/survey/survey.py:513
 #, python-format
-msgid ""
-"You must enter one or more column headings for question \"%s\" of page %s."
-msgstr ""
-"'%s' sorusu için, sayfa %s, bir ya da daha çok sütun başlığı girmelisiniz."
+msgid "You must enter one or more column headings for question \"%s\" of page %s."
+msgstr "'%s' sorusu için, sayfa %s, bir ya da daha çok sütun başlığı girmelisiniz."
 
 #. module: survey
 #: code:addons/survey/survey.py:97
 #: code:addons/survey/survey.py:260
->>>>>>> upstream/7.0
+#: code:addons/survey/survey.py:97 code:addons/survey/survey.py:260
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (kopya)"
@@ -768,12 +734,10 @@ msgstr "Düzenle..."
 #, python-format
 msgid ""
 "Maximum Required Answer you                                     entered for "
-"your maximum is greater than the number of "
-"answer.                                     Please use a number that is "
-"smaller than %d."
-msgstr ""
-"Ençok için girdiğiniz Ençok Gerekli Yanıt sayısı yanıt sayısından büyüktür. "
-"Lütfen %d sayısından az bir sayı kullanın"
+"your maximum is greater than the number of answer."
+"                                     Please use a number that is smaller "
+"than %d."
+msgstr "Ençok için girdiğiniz Ençok Gerekli Yanıt sayısı yanıt sayısından büyüktür. Lütfen %d sayısından az bir sayı kullanın"
 
 #. module: survey
 #: view:survey:0
@@ -794,8 +758,7 @@ msgstr "Seçenekler"
 #: code:addons/survey/survey.py:437
 #, python-format
 msgid "You must enter one or more Answers for question \"%s\" of page %s."
-msgstr ""
-"Bu soru sayfasına %s\"%s\" için bir veya daha fazla Cevaplar girmelisiniz."
+msgstr "Bu soru sayfasına %s\"%s\" için bir veya daha fazla Cevaplar girmelisiniz."
 
 #. module: survey
 #: view:survey:0
@@ -886,11 +849,7 @@ msgid "Set to one if  you require only one Answer per user"
 msgstr "Eğer kullanıcı başına bir cevap gerekiyorsa seçiniz"
 
 #. module: survey
-<<<<<<< HEAD
-#: code:addons/survey/survey.py:424 code:addons/survey/survey.py:512
-=======
 #: code:addons/survey/wizard/survey_answer.py:179
->>>>>>> upstream/7.0
 #, python-format
 msgid " Answer :- "
 msgstr ""
@@ -917,9 +876,7 @@ msgstr "Konu"
 msgid ""
 "You must enter one or more menu                                 choices in "
 "column heading (white spaces not allowed)."
-msgstr ""
-"Sütun başlığına bir ya da daha çok menü seçeneği girmelisiniz (beyaz "
-"boşluklar kabul edilmez)."
+msgstr "Sütun başlığına bir ya da daha çok menü seçeneği girmelisiniz (beyaz boşluklar kabul edilmez)."
 
 #. module: survey
 #: field:survey.question,maximum_req_ans:0
@@ -976,19 +933,7 @@ msgid ""
 "                of several types: text, multiple choices, etc.\n"
 "              </p>\n"
 "            "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
-"                Yeni bir araştırma oluşturmak için tıklayın. \n"
-"              </p><p>\n"
-"                Farklı amaçlar için araştırma oluşturabilirsiniz: işe alma \n"
-"                igörüşmeleri, çalışanların periyodik değerlendirilmeleri, "
-"pazarlama\n"
-"                kampanyaları, vb.\n"
-"              </p><p>\n"
-"                Bir araştırma çeşitli türlerde sorular içeren sayfalardan\n"
-"                oluşur: metin, çoklu seçenek, vb.\n"
-"              </p>\n"
-"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Yeni bir araştırma oluşturmak için tıklayın. \n              </p><p>\n                Farklı amaçlar için araştırma oluşturabilirsiniz: işe alma \n                igörüşmeleri, çalışanların periyodik değerlendirilmeleri, pazarlama\n                kampanyaları, vb.\n              </p><p>\n                Bir araştırma çeşitli türlerde sorular içeren sayfalardan\n                oluşur: metin, çoklu seçenek, vb.\n              </p>\n            "
 
 #. module: survey
 #: selection:survey.question,comment_field_type:0
@@ -1014,8 +959,8 @@ msgstr "Başla"
 #: code:addons/survey/wizard/survey_selection.py:83
 #, python-format
 msgid ""
-"You cannot give more responses. Please contact the author of this survey for "
-"further assistance."
+"You cannot give more responses. Please contact the author of this survey for"
+" further assistance."
 msgstr ""
 
 #. module: survey
@@ -1045,12 +990,6 @@ msgid "Matrix of Drop-down Menus"
 msgstr "Açılır Menü Matrisi"
 
 #. module: survey
-<<<<<<< HEAD
-#: view:survey:0 field:survey.answer,answer:0 field:survey.name.wiz,response:0
-#: view:survey.page:0 view:survey.print.answer:0
-#: field:survey.print.answer,response_ids:0 view:survey.question:0
-#: field:survey.question,answer_choice_ids:0 field:survey.request,response:0
-=======
 #: code:addons/survey/wizard/survey_answer.py:226
 #: view:survey:0
 #: field:survey.answer,answer:0
@@ -1061,7 +1000,11 @@ msgstr "Açılır Menü Matrisi"
 #: view:survey.question:0
 #: field:survey.question,answer_choice_ids:0
 #: field:survey.request,response:0
->>>>>>> upstream/7.0
+#: code:addons/survey/wizard/survey_answer.py:226 view:survey:0
+#: field:survey.answer,answer:0 field:survey.name.wiz,response:0
+#: view:survey.page:0 view:survey.print.answer:0
+#: field:survey.print.answer,response_ids:0 view:survey.question:0
+#: field:survey.question,answer_choice_ids:0 field:survey.request,response:0
 #: field:survey.response,question_ids:0
 #: field:survey.response.answer,answer_id:0
 #: field:survey.response.answer,response_id:0 view:survey.response.line:0
@@ -1362,14 +1305,11 @@ msgid "Field Label"
 msgstr "Alan Etiketi"
 
 #. module: survey
-<<<<<<< HEAD
-#: view:survey.request:0 selection:survey.request,state:0
-=======
 #: code:addons/survey/wizard/survey_answer.py:382
 #: view:survey.request:0
+#: code:addons/survey/wizard/survey_answer.py:382 view:survey.request:0
 #: selection:survey.request,state:0
 #, python-format
->>>>>>> upstream/7.0
 msgid "Done"
 msgstr "Biten"
 
@@ -1578,7 +1518,7 @@ msgstr "Tedarikçi Seçimi"
 #: code:addons/survey/report/survey_browse_response.py:232
 #, python-format
 msgid "Finished"
-msgstr ""
+msgstr "Biten"
 
 #. module: survey
 #: code:addons/survey/survey.py:691
@@ -1592,9 +1532,7 @@ msgstr "Kaynağın bir eşini kopyalayamazsınız!"
 msgid ""
 "Minimum Required Answer you entered is greater than the number of answer. "
 "Please use a number that is smaller than %d."
-msgstr ""
-"Girdiğiniz minimum cevap sayısı verdiğiniz cevaplardan fazladır. Lütfen %d "
-"sayısından küçük bir sayı giriniz"
+msgstr "Girdiğiniz minimum cevap sayısı verdiğiniz cevaplardan fazladır. Lütfen %d sayısından küçük bir sayı giriniz"
 
 #. module: survey
 #: field:survey.question.wiz,name:0
@@ -1635,9 +1573,7 @@ msgid ""
 "#Required Answer you entered is                                     greater "
 "than the number of answer.                                    Please use a "
 "number that is smaller than %d."
-msgstr ""
-"Girdiğiniz cevap sayısı verdiğiniz cevaplardan fazladır. Lütfen %d "
-"sayısından küçük bir sayı giriniz"
+msgstr "Girdiğiniz cevap sayısı verdiğiniz cevaplardan fazladır. Lütfen %d sayısından küçük bir sayı giriniz"
 
 #. module: survey
 #: selection:survey.print,paper_size:0
@@ -1679,40 +1615,6 @@ msgid "Error message"
 msgstr "Hata mesajı"
 
 #. module: survey
-<<<<<<< HEAD
-#: code:addons/survey/survey.py:152 code:addons/survey/survey.py:169
-#: code:addons/survey/survey.py:187 code:addons/survey/survey.py:424
-#: code:addons/survey/survey.py:436 code:addons/survey/survey.py:450
-#: code:addons/survey/survey.py:455 code:addons/survey/survey.py:465
-#: code:addons/survey/survey.py:471 code:addons/survey/survey.py:477
-#: code:addons/survey/survey.py:483 code:addons/survey/survey.py:487
-#: code:addons/survey/survey.py:493 code:addons/survey/survey.py:497
-#: code:addons/survey/survey.py:508 code:addons/survey/survey.py:512
-#: code:addons/survey/survey.py:517 code:addons/survey/survey.py:523
-#: code:addons/survey/survey.py:525 code:addons/survey/survey.py:527
-#: code:addons/survey/survey.py:532 code:addons/survey/survey.py:534
-#: code:addons/survey/survey.py:685
-#: code:addons/survey/wizard/survey_answer.py:117
-#: code:addons/survey/wizard/survey_answer.py:124
-#: code:addons/survey/wizard/survey_answer.py:707
-#: code:addons/survey/wizard/survey_answer.py:746
-#: code:addons/survey/wizard/survey_answer.py:766
-#: code:addons/survey/wizard/survey_answer.py:795
-#: code:addons/survey/wizard/survey_answer.py:800
-#: code:addons/survey/wizard/survey_answer.py:808
-#: code:addons/survey/wizard/survey_answer.py:819
-#: code:addons/survey/wizard/survey_answer.py:828
-#: code:addons/survey/wizard/survey_answer.py:833
-#: code:addons/survey/wizard/survey_answer.py:907
-#: code:addons/survey/wizard/survey_answer.py:943
-#: code:addons/survey/wizard/survey_answer.py:961
-#: code:addons/survey/wizard/survey_answer.py:989
-#: code:addons/survey/wizard/survey_answer.py:992
-#: code:addons/survey/wizard/survey_answer.py:995
-#: code:addons/survey/wizard/survey_answer.py:1007
-#: code:addons/survey/wizard/survey_answer.py:1014
-#: code:addons/survey/wizard/survey_answer.py:1017
-=======
 #: code:addons/survey/survey.py:153
 #: code:addons/survey/survey.py:170
 #: code:addons/survey/survey.py:188
@@ -1735,6 +1637,17 @@ msgstr "Hata mesajı"
 #: code:addons/survey/survey.py:528
 #: code:addons/survey/survey.py:533
 #: code:addons/survey/survey.py:535
+#: code:addons/survey/survey.py:153 code:addons/survey/survey.py:170
+#: code:addons/survey/survey.py:188 code:addons/survey/survey.py:425
+#: code:addons/survey/survey.py:437 code:addons/survey/survey.py:451
+#: code:addons/survey/survey.py:456 code:addons/survey/survey.py:466
+#: code:addons/survey/survey.py:472 code:addons/survey/survey.py:478
+#: code:addons/survey/survey.py:484 code:addons/survey/survey.py:488
+#: code:addons/survey/survey.py:494 code:addons/survey/survey.py:498
+#: code:addons/survey/survey.py:509 code:addons/survey/survey.py:513
+#: code:addons/survey/survey.py:518 code:addons/survey/survey.py:524
+#: code:addons/survey/survey.py:526 code:addons/survey/survey.py:528
+#: code:addons/survey/survey.py:533 code:addons/survey/survey.py:535
 #: code:addons/survey/survey.py:691
 #: code:addons/survey/wizard/survey_answer.py:118
 #: code:addons/survey/wizard/survey_answer.py:125
@@ -1756,7 +1669,6 @@ msgstr "Hata mesajı"
 #: code:addons/survey/wizard/survey_answer.py:1011
 #: code:addons/survey/wizard/survey_answer.py:1018
 #: code:addons/survey/wizard/survey_answer.py:1021
->>>>>>> upstream/7.0
 #: code:addons/survey/wizard/survey_selection.py:80
 #: code:addons/survey/wizard/survey_selection.py:83
 #: code:addons/survey/wizard/survey_send_invitation.py:71
@@ -1769,11 +1681,9 @@ msgstr "Uyarı!"
 #, python-format
 msgid ""
 "Minimum Required Answer                                     you entered is "
-"greater than the number of answer.                                    Please "
-"use a number that is smaller than %d."
-msgstr ""
-"Girdiğiniz Enaz Gerekli Yanıt sayısı yanıt sayısından büyüktür. Lütfen %d "
-"sayısından az bir sayı kullanın"
+"greater than the number of answer.                                    Please"
+" use a number that is smaller than %d."
+msgstr "Girdiğiniz Enaz Gerekli Yanıt sayısı yanıt sayısından büyüktür. Lütfen %d sayısından az bir sayı kullanın"
 
 #. module: survey
 #: field:survey.answer,menu_choice:0
@@ -1832,21 +1742,19 @@ msgstr "Menü Seçenekleri (Her seçenek satır ile ayrı)"
 #. module: survey
 #: selection:survey.answer,type:0
 msgid "Float"
-msgstr ""
+msgstr "Kaydırma"
 
 #. module: survey
-<<<<<<< HEAD
-#: view:survey.browse.answer:0 view:survey.name.wiz:0 view:survey.print:0
-#: view:survey.print.answer:0 view:survey.print.statistics:0
-=======
 #: code:addons/survey/wizard/survey_answer.py:395
 #: view:survey.browse.answer:0
 #: view:survey.name.wiz:0
 #: view:survey.print:0
 #: view:survey.print.answer:0
 #: view:survey.print.statistics:0
->>>>>>> upstream/7.0
 #: view:survey.send.invitation:0
+#: code:addons/survey/wizard/survey_answer.py:395 view:survey.browse.answer:0
+#: view:survey.name.wiz:0 view:survey.print:0 view:survey.print.answer:0
+#: view:survey.print.statistics:0 view:survey.send.invitation:0
 #, python-format
 msgid "or"
 msgstr "veya"
